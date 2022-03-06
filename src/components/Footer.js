@@ -11,7 +11,7 @@ function Footer() {
                                 <div className='footer_widget'>
                                     <div className='address_details text-center'>
                                         <h4 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.3s'>
-                                            5 Apr, 2022
+                                            7 Apr, 2022
                                         </h4>
                                         <h3 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.4s'>
                                             Itm Gida, Gorakhpur
@@ -55,7 +55,7 @@ function Footer() {
                                 </div>
                                 <div className='col-md-4'>
                                     <h3 className='wow fadeInUp'>Connect with Us</h3>
-                                    <p className='send-referal'>
+                                    <p className='send-referal wow fadeInUp'>
                                         <a href='https://www.facebook.com/profile.php?id=Itmgkpofficial' target='_blank'>
                                             <i className='ti-facebook'></i>
                                         </a>

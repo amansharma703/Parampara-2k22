@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -11,9 +12,9 @@ const Header = () => {
                                 <div className='row align-items-center'>
                                     <div className='col-xl-3 col-lg-3'>
                                         <div className='logo'>
-                                            <a href='/'>
+                                            <NavLink to='/'>
                                                 <img id='logo-min' src='/img/logo.png' style={{ width: '80%' }} alt='' />
-                                            </a>
+                                            </NavLink>
                                         </div>
                                     </div>
                                     <div className='col-xl-6 col-lg-6'>
@@ -21,11 +22,10 @@ const Header = () => {
                                             <nav>
                                                 <ul id='navigation'>
                                                     <li>
-                                                        <a href='/'>home</a>
+                                                        <NavLink to='/'> Home</NavLink>
                                                     </li>
                                                     <li>
-                                                        {/* <Link to='/performer'>Performer</Link> */}
-                                                        <a href='/performer'>Performer</a>
+                                                        <NavLink to='/performer'> Performer</NavLink>
                                                     </li>
 
                                                     <li>
@@ -34,21 +34,25 @@ const Header = () => {
                                                         </a>
                                                         <ul className='submenu'>
                                                             <li>
-                                                                <a href='#'>Technical</a>
+                                                                <NavLink to='#'> Technical</NavLink>
                                                             </li>
                                                             <li>
-                                                                <a href='#'>Sports</a>
+                                                                <NavLink to='/performer'> Performer</NavLink>
                                                             </li>
                                                             <li>
-                                                                <a href='#'>Cultural</a>
+                                                                <NavLink to='#'> Performer</NavLink>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a href='#'>Gallery</a>
+                                                        <NavLink to='/gallery'> Gallery</NavLink>
+                                                        {/* 
+                                                        <a href='#'>Gallery</a> */}
                                                     </li>
                                                     <li>
-                                                        <a href='/contact'>Contact</a>
+                                                        <NavLink to='/contact'> Contact</NavLink>
+
+                                                        {/* <a href='/contact'>Contact</a> */}
                                                     </li>
                                                 </ul>
                                             </nav>
