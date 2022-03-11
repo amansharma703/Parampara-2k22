@@ -6,6 +6,7 @@ const GalleryPage = () => {
     return (
         <>
             <HeroSlider name='Gallery' message='We Capture your all Precious Moment here' />
+            <Gallery />
         </>
     );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import FaceBook from './SocialPlugins/FaceBook';
 
 function Footer() {
     return (
@@ -28,15 +29,27 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='footer_top' id='last_footer'>
+                <div className='footer_top footer_last'>
                     <div className='container'>
                         <div className='footer_widget'>
-                            <div className='row mb-3'>
-                                <div className='col-md-4'>
-                                    <h3 className='wow fadeInUp'>About Event</h3>
-                                    <p className='wow fadeInUp'>The Greatness In The Cultural Is Found In The Festivals.</p>
+                            <div className='row mb-3 d-flex flex-row-reverse'>
+                                <div className='col-md-4 py-3'>
+                                    <h3 className='wow fadeInUp'>FaceBook Page</h3>
+                                    <FaceBook />
                                 </div>
-                                <div className='col-md-3 ml-auto'>
+                                <div className='col-md-4  py-3'>
+                                    <h3 className='wow fadeInUp'>Youtube </h3>
+                                    {/* <iframe src='https://www.youtube.com/embed/cWDJoK8zw58'></iframe> */}
+                                    <iframe
+                                        className='wow fadeInUp'
+                                        width='80%'
+                                        height='50%'
+                                        src='https://www.youtube.com/embed/2s8rxxNtyZQ'
+                                        // title='YouTube video player'
+                                        // frameborder='0'
+                                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                        allowfullscreen
+                                    ></iframe>
                                     <h3 className='wow fadeInUp'>Quick Links</h3>
                                     <ul className='list-unstyled wow fadeInUp'>
                                         <li>
@@ -53,7 +66,7 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className='col-md-4'>
+                                <div className='col-md-4 py-3'>
                                     <h3 className='wow fadeInUp'>Connect with Us</h3>
                                     <p className='send-referal wow fadeInUp'>
                                         <a href='https://www.facebook.com/profile.php?id=Itmgkpofficial' target='_blank'>
@@ -72,6 +85,23 @@ function Footer() {
                                             <i className='ti-world'></i>
                                         </a>
                                     </p>
+                                    <h3 className='wow fadeInUp'>Ours Vision</h3>
+                                    <ul className=' list-unstyled vision wow fadeInUp'>
+                                        <li>
+                                            To impart quality technical education through competent faculty by providing good infrastructure, open
+                                            education resources and learning experience.
+                                        </li>
+                                        <li>
+                                            To provide skill oriented education to students, better interaction with industry and alumni to meet the
+                                            need of society and nation.
+                                        </li>
+                                        <li>
+                                            To develop students to be competent professionals and with high ethical standards to face the challenges
+                                            ahead.
+                                        </li>
+                                    </ul>
+
+                                    {/* <p className='wow fadeInUp about'>The Greatness In The Cultural Is Found In The Festivals.</p> */}
                                 </div>
                             </div>
                             <div className='row'>

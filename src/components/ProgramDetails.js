@@ -4,7 +4,7 @@ const ProgramDetails = () => {
     return (
         <>
             {/* <!-- about_area_start  --> */}
-            <div id='about' className='about_area black_bg'>
+            <div id='about' className='about_area black_bg px-3'>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-lg-8'>

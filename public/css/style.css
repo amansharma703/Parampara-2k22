@@ -104,6 +104,7 @@ a,
 button {
   color: #1F1F1F;
   outline: medium none;
+  text-decoration: none;
 }
 
 /* line 52, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -765,8 +766,9 @@ h3 {
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 36px;
+    text-align: center;
   }
 }
 
@@ -956,7 +958,7 @@ h3 {
   top: -9px;
 }
 
-/* line 78, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
+/* line 78, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -969,8 +971,8 @@ h3 {
   padding: 5px;
   right: 5px;
   margin-top: -5px;
-  top: -31px;
-}
+  top: -65px;
+} */
 
 /* line 92, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
@@ -985,12 +987,12 @@ h3 {
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -36px;
+  top: -70px;
 }
 
 /* line 106, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
-  top: -1px;
+  top: -20px;
 }
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
@@ -1054,6 +1056,9 @@ h3 {
 /* line 32, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
+}
+#logo-min{
+  width: 45% !important;
 }
 @media (max-width:767px){
 #logo-min{
@@ -1515,12 +1520,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image:  url(../img/banner/banner.webp) ;
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
@@ -1540,7 +1545,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 10, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: auto;
+    height: 60vh;
   }
 }
 
@@ -1566,8 +1571,8 @@ h3 {
 /* line 26, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text .shape_2 {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 45px;
+  bottom: 80px;
   z-index: -1;
 }
 
@@ -1576,6 +1581,8 @@ h3 {
   .slider_area .single_slider .slider_text .shape_2 {
     width: 100px;
     height: 100px;
+    bottom: 40px;
+    left: 2px;
   }
 }
 
@@ -1590,7 +1597,7 @@ h3 {
 .slider_area .single_slider .slider_text .shape_1 {
   position: absolute;
   right: 0;
-  top: 0;
+  top: -60px;
   z-index: -1;
 }
 
@@ -1599,6 +1606,7 @@ h3 {
   .slider_area .single_slider .slider_text .shape_1 {
     width: 100px;
     height: 100px;
+    top:-30px
   }
 }
 
@@ -1639,7 +1647,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 38px;
     line-height: 1.2;
     margin: 20px 0;
   }
@@ -1957,7 +1965,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_about.scss */
 .about_area {
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   position: relative;
   margin-top: -2px;
 }
@@ -2244,7 +2252,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_performer.scss */
   .performar_area {
-    padding-top: 50px;
+    padding-top: 5px;
     padding-bottom: 20px;
   }
 }
@@ -2266,6 +2274,7 @@ h3 {
   /* line 12, ../../Arafath/CL/December/236. Event-02/HTML/scss/_performer.scss */
   .performar_area .single_performer {
     margin-bottom: 30px;
+    padding: 5px 15px;
   }
 }
 
@@ -2323,7 +2332,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_brand.scss */
 .brand_area .brand_wrap {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
   padding-bottom: 80px;
 }
 
@@ -2395,6 +2404,17 @@ h3 {
   color: #AAB1B7;
 }
 
+
+/* card hover  */
+
+
+.card-hover:hover {
+  transform: scale(1.03);
+  transition: ease-in-out 0.2s;
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+
 @media (max-width: 767px) {
   /* line 39, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
   .map_area .location_information .info_wrap .single_info span {
@@ -2427,9 +2447,16 @@ h3 {
 .program_details_area {
   background-size: cover;
   background-position: bottom center;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
+@media (max-width: 767px) {
+  .program_details_area {
+  background-size: cover;
+  background-position: bottom center;
+  padding: 2px 10px;
+}
+}
 /* line 11, ../../Arafath/CL/December/236. Event-02/HTML/scss/_program_details.scss */
 .program_details_area .program_detail_wrap {
   position: relative;
@@ -2581,9 +2608,20 @@ padding-top: .8rem;
 
 }
 
+
 .list-unstyled a{
 color: #AAB1B7;
 
+}
+.vision {
+  padding-right: 50px;
+  padding-left: 5px;
+}
+.vision li{
+  list-style: circle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
 }
 
 .list-unstyled a:hover{
@@ -2627,12 +2665,19 @@ color: #AAB1B7;
   padding-top: 120px;
   padding-bottom: 110px;
 }
+.footer .footer_top {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
 
 @media (max-width: 767px) {
   /* line 9, ../../Arafath/CL/December/236. Event-02/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 60px;
     padding-bottom: 30px;
+  }
+  .footer .footer_last{
+    padding: 5px 10px
   }
 }
 
@@ -2655,6 +2700,10 @@ color: #AAB1B7;
 .footer .footer_top .footer_widget p {
   margin-top: 25px;
   margin-bottom: 41px;
+}
+.footer .footer_top .footer_widget .about {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* line 34, ../../Arafath/CL/December/236. Event-02/HTML/scss/_footer.scss */

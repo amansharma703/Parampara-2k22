@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProgramTimeline = () => {
+const ProgramTimeline = (props) => {
     return (
         <>
             <div className='program_details_area detials_bg_1 overlay2'>
@@ -8,7 +8,7 @@ const ProgramTimeline = () => {
                     <div className='row'>
                         <div className='col-lg-12'>
                             <div className='section_title text-center mb-80  wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
-                                <h3>Program Details</h3>
+                                <h3>Popular Events</h3>
                             </div>
                         </div>
                     </div>
@@ -20,11 +20,12 @@ const ProgramTimeline = () => {
                                         <div className='circle_img'></div>
                                         <div className='porgram_top'>
                                             <span className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.3s'>
-                                                9.00-11.00pm
+                                                {/* 9.00-11.00pm */}
+                                                Coming Soon
                                             </span>
-                                            <h4 className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
+                                            {/* <h4 className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
                                                 7 Apr 2022
-                                            </h4>
+                                            </h4> */}
                                         </div>
                                         <div className='thumb wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.5s'>
                                             <img src='img/program_details/1.png' alt='' />
@@ -39,11 +40,11 @@ const ProgramTimeline = () => {
                                         <div className='circle_img'></div>
                                         <div className='porgram_top'>
                                             <span className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
-                                                1.00-3.00pm
+                                                Coming Soon
                                             </span>
-                                            <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.4s'>
+                                            {/* <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.4s'>
                                                 7 Apr 2022
-                                            </h4>
+                                            </h4> */}
                                         </div>
                                         <div className='thumb wow fadeInRight' data-wow-duration='1s' data-wow-delay='.5s'>
                                             <img src='img/program_details/2.jpg' alt='' />
@@ -58,11 +59,11 @@ const ProgramTimeline = () => {
                                         <div className='circle_img'></div>
                                         <div className='porgram_top'>
                                             <span className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.3s'>
-                                                10.00-12.00pm
+                                                Coming Soon
                                             </span>
-                                            <h4 className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
+                                            {/* <h4 className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
                                                 8 Apr 2022
-                                            </h4>
+                                            </h4> */}
                                         </div>
                                         <div className='thumb  wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.5s'>
                                             <img src='img/program_details/3.png' alt='' />
@@ -77,11 +78,11 @@ const ProgramTimeline = () => {
                                         <div className='circle_img'></div>
                                         <div className='porgram_top'>
                                             <span className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
-                                                2.00-4.00pm
+                                                Coming Soon
                                             </span>
-                                            <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.4s'>
+                                            {/* <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.4s'>
                                                 8 Feb 2020
-                                            </h4>
+                                            </h4> */}
                                         </div>
                                         <div className='thumb wow fadeInRight' data-wow-duration='1s' data-wow-delay='.5s'>
                                             <img src='img/program_details/4.jpg' alt='' />
@@ -96,11 +97,11 @@ const ProgramTimeline = () => {
                                         <div className='circle_img'></div>
                                         <div className='porgram_top'>
                                             <span className='wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.3s'>
-                                                12.00-3.00pm
+                                                Coming Soon
                                             </span>
-                                            <h4 className='wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
+                                            {/* <h4 className='wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.4s'>
                                                 9 Apr 2022
-                                            </h4>
+                                            </h4> */}
                                         </div>
                                         <div className='thumb wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.5s'>
                                             <img src='img/program_details/5.jpg' alt='' />

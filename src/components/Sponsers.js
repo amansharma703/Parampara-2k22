@@ -10,7 +10,7 @@ function Sponsers() {
                         <div className='col-lg-12'>
                             <div className='section_title text-center mb-80'>
                                 <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
-                                    Sponsor Logos
+                                    Highlighted Events
                                 </h4>
                             </div>
                         </div>
@@ -20,7 +20,8 @@ function Sponsers() {
                             <div className='brand_wrap'>
                                 <div className='brand_active owl-carousel'>
                                     <div className='single_brand text-center'>
-                                        <img src='img/brand/1.png' alt='' />
+                                        <img src='img/performer/1.png' alt='' />
+                                        <h4>Hello</h4>
                                     </div>
                                     <div className='single_brand text-center'>
                                         <img src='img/brand/2.png' alt='' />

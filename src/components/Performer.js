@@ -9,7 +9,7 @@ const Performer = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>
-                            <div className='section_title mb-80'>
+                            <div className='section_title mb-75'>
                                 <h3 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
                                     Top Performer
                                 </h3>

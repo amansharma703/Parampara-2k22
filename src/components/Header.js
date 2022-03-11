@@ -13,7 +13,7 @@ const Header = () => {
                                     <div className='col-xl-3 col-lg-3'>
                                         <div className='logo'>
                                             <NavLink to='/'>
-                                                <img id='logo-min' src='/img/logo.png' style={{ width: '80%' }} alt='' />
+                                                <img id='logo-min' src='/img/logo2.png' style={{ width: '80%' }} alt='' />
                                             </NavLink>
                                         </div>
                                     </div>
@@ -24,9 +24,9 @@ const Header = () => {
                                                     <li>
                                                         <NavLink to='/'> Home</NavLink>
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <NavLink to='/performer'> Performer</NavLink>
-                                                    </li>
+                                                    </li> */}
 
                                                     <li>
                                                         <a href='#'>
@@ -34,13 +34,13 @@ const Header = () => {
                                                         </a>
                                                         <ul className='submenu'>
                                                             <li>
-                                                                <NavLink to='#'> Technical</NavLink>
+                                                                <NavLink to='/techevent'> Technical</NavLink>
                                                             </li>
                                                             <li>
-                                                                <NavLink to='/performer'> Performer</NavLink>
+                                                                <NavLink to='/culturalevent'> Cultural</NavLink>
                                                             </li>
                                                             <li>
-                                                                <NavLink to='#'> Performer</NavLink>
+                                                                <NavLink to='/sportsevent'> Sports</NavLink>
                                                             </li>
                                                         </ul>
                                                     </li>
