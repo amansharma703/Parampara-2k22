@@ -1,76 +1,75 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+// import ParticlesEffect from './components/utils/ParticlesEffect';
+import ParticlesEffect from './utils/ParticlesEffect';
 
 const Performer = () => {
+    const performerImg = [
+        {
+            name: 'Jatin Agni',
+            imgSrc: '/img/performer/1.png',
+            type: 'Singer',
+        },
+        {
+            name: 'Piyush Verma',
+            imgSrc: '/img/performer/2.jpg',
+            type: 'Musician',
+        },
+        {
+            name: 'Ankit',
+            imgSrc: '/img/performer/3.jpg',
+            type: 'Singer',
+        },
+        {
+            name: 'DJ Hermus',
+            imgSrc: '/img/performer/5.jpg',
+            type: 'DJ',
+        },
+        {
+            name: 'Mohd Shadan',
+            imgSrc: '/img/performer/4.jpg',
+            type: 'Singer',
+        },
+        {
+            name: 'Jatin Agni',
+            imgSrc: '/img/performer/3.jpg',
+            type: 'Singer',
+        },
+    ];
     return (
         <>
             {/* <!-- performar_area_start  --> */}
-            <div className='performar_area black_bg'>
-                <div className='container'>
+            <div id='performer' className='performar_area bg-black-gradient '>
+                <div className='container '>
                     <div className='row'>
                         <div className='col-lg-12'>
                             <div className='section_title mb-75'>
-                                <h3 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
+                                <h3 className='wow fadeInUp ' data-wow-duration='1s' data-wow-delay='.3s'>
                                     Top Performer
                                 </h3>
                             </div>
                         </div>
                     </div>
                     <div className='row justify-content-center'>
-                        <div className='col-lg-8'>
+                        <div className='col-lg-10'>
                             <div className='row'>
-                                <Tilt className='Tilt col-lg-6 col-md-6' options={{ max: 60 }}>
-                                    <div className=''>
-                                        <div className='single_performer wow fadeInUp'>
-                                            <div className='thumb'>
-                                                <img src='/img/performer/1.png' alt='' />
+                                {performerImg.map((item, index) => {
+                                    return (
+                                        <Tilt key={index} className=' col-lg-4 col-md-6 my-2 ' options={{ max: 60 }}>
+                                            <div className=''>
+                                                <div className='single_performer wow fadeInUp' data-wow-duration='1s' data-wow-delay='.3s'>
+                                                    <div className='thumb'>
+                                                        <img src={item.imgSrc} alt='' />
+                                                    </div>
+                                                    <div className='performer_heading'>
+                                                        <h4>{item.name} </h4>
+                                                        <span>{item.type}</span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className='performer_heading'>
-                                                <h4>DJ Hermus</h4>
-                                                <span>DJ</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tilt>
-                                <Tilt className='Tilt col-lg-6 col-md-6' options={{ max: 60 }}>
-                                    <div className=''>
-                                        <div className='single_performer wow fadeInUp'>
-                                            <div className='thumb'>
-                                                <img src='/img/performer/2.jpg' alt='' />
-                                            </div>
-                                            <div className='performer_heading'>
-                                                <h4>Piyush Verma</h4>
-                                                <span>Musician</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tilt>
-                                <Tilt className='Tilt col-lg-6 col-md-6' options={{ max: 60 }}>
-                                    <div className=''>
-                                        <div className='single_performer wow fadeInUp'>
-                                            <div className='thumb'>
-                                                <img src='/img/performer/3.jpg' alt='' />
-                                            </div>
-                                            <div className='performer_heading'>
-                                                <h4>Ankit</h4>
-                                                <span>Singer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tilt>
-                                <Tilt className='Tilt col-lg-6 col-md-6'>
-                                    <div className=''>
-                                        <div className='single_performer wow fadeInUp'>
-                                            <div className='thumb'>
-                                                <img src='/img/performer/4.jpg' alt='' />
-                                            </div>
-                                            <div className='performer_heading'>
-                                                <h4>Modh. Shadan</h4>
-                                                <span>Singer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tilt>
+                                        </Tilt>
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>

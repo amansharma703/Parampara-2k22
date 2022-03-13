@@ -3,7 +3,7 @@ import React from 'react';
 const ProgramTimeline = (props) => {
     return (
         <>
-            <div className='program_details_area detials_bg_1 overlay2'>
+            <div className='program_details_area detials_bg_1 overlay2 '>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>

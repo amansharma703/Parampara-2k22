@@ -1,75 +1,53 @@
-import { GoogleApiWrapper } from 'google-maps-react';
-import React, { useState } from 'react';
-import MapContainer from './MapContainer';
 import '../css/gallery.css';
-import CloseIcon from '@mui/icons-material/Close';
-// import Img1 from '../../public/img/performer/1.png';
-// import Img2 from '../../public/img/performer/2.png';
-// import Img3 from '../../public/img/performer/2.png';
-// import Img4 from '../../public/img/performer/3.jpg';
-// import Img5 from '../../public/img/performer/3.png';
-// import Img6 from '../../public/img/performer/4.jpg';
+import '../css/gall.css';
+import React, { useEffect, useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Gallery = () => {
-    let data = [
-        {
-            id: 1,
-            imgSrc: 'img/performer/1.png',
-        },
-        {
-            id: 2,
-            imgSrc: 'img/performer/2.jpg',
-        },
-        {
-            id: 3,
-            imgSrc: 'img/performer/2.png',
-        },
-        {
-            id: 4,
-            imgSrc: 'img/performer/3.jpg',
-        },
-        {
-            id: 5,
-            imgSrc: 'img/performer/3.png',
-        },
-        {
-            id: 6,
-            imgSrc: 'img/performer/4.jpg',
-        },
-    ];
-    const [model, setModel] = useState(false);
-    const [tempImgSrc, setTempImgSrc] = useState('');
-    const getImg = (imgSrc) => {
-        console.warn(imgSrc);
-        setTempImgSrc(imgSrc);
-        setModel(true);
+    const [galleryData, setGalleryData] = useState([]);
+    const getData = async () => {
+        const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/gallery.json');
+        const data = await res.json();
+        setGalleryData(data);
+        console.log(data);
     };
+    useEffect(() => {
+        getData();
+        Aos.init();
+    }, []);
     return (
         <>
-            <div className='container'>
-                {/* <div className={model ? 'model open' : 'model'}>
-                    <img src={tempImgSrc} />
-                    <CloseIcon className='svg' onClick={() => setModel(false)} />
-                </div> */}
-
-                {/* <iframe
-                        src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621'
-                        frameborder='0'
-                        style='border:0'
-                        allowfullscreen
-                    ></iframe> */}
-
-                <div className='gallery'>
-                    {data.map((item, index) => {
+            <div className='container pt-4'>
+                <div className='container'>
+                    <div className='row  mt-xs-20'>
+                        <div className='col-md-12 text-center'>
+                            <h1>
+                                Parampara <b>Gallery</b>
+                            </h1>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className=' text-center mb-30 mt-xs-10'>
+                            <p> Parampara Events Gallery </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='gallery px-5'>
+                    {galleryData.map((item, index) => {
                         return (
                             <div
-                                className='pics'
+                                data-aos='fade-up'
+                                data-aos-offset='100'
+                                className='pics effect-hover figure'
                                 key={index}
-                                onClick={() => {
-                                    getImg(item.imgSrc);
-                                }}
+                                // onClick={() => {
+                                //     getImg(item.imgSrc);
+                                // }}
                             >
-                                <img src={item.imgSrc} style={{ width: '100%' }} />
+                                <LazyLoadImage src={item.img} effect='blur' style={{ width: '100%' }} />
                             </div>
                         );
                     })}

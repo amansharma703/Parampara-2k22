@@ -8,6 +8,7 @@ import Event from '../components/Event';
 import FaceBook from '../components/SocialPlugins/FaceBook';
 import Eventschedule from '../components/Eventschedule';
 import CardPage from '../components/CardPage';
+import Gall from '../components/Gall';
 
 const HomePage = () => {
     return (
@@ -15,11 +16,10 @@ const HomePage = () => {
             <HeroSlider name='Parampara 2k22' message='We are back with a Bang!' />
             <Performer />
             <ProgramDetails />
-            {/* <Event /> */}
             <Eventschedule />
+            <Gall />
             <ProgramTimeline />
             {/* <Sponsers /> */}
-            {/* <FaceBook /> */}
         </>
     );
 };

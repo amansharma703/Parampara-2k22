@@ -4,55 +4,55 @@ const Event = () => {
     return (
         <>
             {/* <!-- ======= Schedule Section ======= --> */}
-            <section id='schedule' class='section-with-bg'>
-                <div class='container' data-aos='fade-up'>
-                    <div class='section-header'>
+            <section id='schedule' className='section-with-bg'>
+                <div className='container' data-aos='fade-up'>
+                    <div className='section-header'>
                         <h2>Event Schedule</h2>
                         <p>Here is our event schedule</p>
                     </div>
 
-                    <ul class='nav nav-tabs' role='tablist' data-aos='fade-up' data-aos-delay='100'>
-                        <li class='nav-item'>
-                            <a class='nav-link active' href='#day-1' role='tab' data-bs-toggle='tab'>
+                    <ul className='nav nav-tabs' role='tablist' data-aos='fade-up' data-aos-delay='100'>
+                        <li className='nav-item'>
+                            <a className='nav-link active' href='#day-1' role='tab' data-bs-toggle='tab'>
                                 Day 1
                             </a>
                         </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='#day-2' role='tab' data-bs-toggle='tab'>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#day-2' role='tab' data-bs-toggle='tab'>
                                 Day 2
                             </a>
                         </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='#day-3' role='tab' data-bs-toggle='tab'>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#day-3' role='tab' data-bs-toggle='tab'>
                                 Day 3
                             </a>
                         </li>
                     </ul>
 
-                    <h3 class='sub-heading'>
+                    <h3 className='sub-heading'>
                         Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore
                         perspiciatis quia.
                     </h3>
 
-                    <div class='tab-content row justify-content-center' data-aos='fade-up' data-aos-delay='200'>
+                    <div className='tab-content row justify-content-center' data-aos='fade-up' data-aos-delay='200'>
                         {/* <!-- Schdule Day 1 --> */}
-                        <div role='tabpanel' class='col-lg-9 tab-pane fade show active' id='day-1'>
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                        <div role='tabpanel' className='col-lg-9 tab-pane fade show active' id='day-1'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>09:30 AM</time>
                                 </div>
-                                <div class='col-md-10'>
+                                <div className='col-md-10'>
                                     <h4>Registration</h4>
                                     <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>10:00 AM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/1.jpg' alt='Brenden Legros' />
                                     </div>
                                     <h4>
@@ -62,12 +62,12 @@ const Event = () => {
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>11:00 AM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/2.jpg' alt='Hubert Hirthe' />
                                     </div>
                                     <h4>
@@ -77,12 +77,12 @@ const Event = () => {
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>12:00 AM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/3.jpg' alt='Cole Emmerich' />
                                     </div>
                                     <h4>
@@ -92,12 +92,12 @@ const Event = () => {
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>02:00 PM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/4.jpg' alt='Jack Christiansen' />
                                     </div>
                                     <h4>
@@ -107,12 +107,12 @@ const Event = () => {
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>03:00 PM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/5.jpg' alt='Alejandrin Littel' />
                                     </div>
                                     <h4>
@@ -122,12 +122,12 @@ const Event = () => {
                                 </div>
                             </div>
 
-                            <div class='row schedule-item'>
-                                <div class='col-md-2'>
+                            <div className='row schedule-item'>
+                                <div className='col-md-2'>
                                     <time>04:00 PM</time>
                                 </div>
-                                <div class='col-md-10'>
-                                    <div class='speaker'>
+                                <div className='col-md-10'>
+                                    <div className='speaker'>
                                         <img src='assets/img/speakers/6.jpg' alt='Willow Trantow' />
                                     </div>
                                     <h4>
@@ -140,14 +140,14 @@ const Event = () => {
                         {/* <!-- End Schdule Day 1 --> */}
 
                         {/* <!-- Schdule Day 2 --> */}
-                        <div role='tabpanel' class='col-lg-9  tab-pane fade' id='day-2' />
+                        <div role='tabpanel' className='col-lg-9  tab-pane fade' id='day-2' />
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>10:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/1.jpg' alt='Brenden Legros' />
                                 </div>
                                 <h4>
@@ -157,12 +157,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>11:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/2.jpg' alt='Hubert Hirthe' />
                                 </div>
                                 <h4>
@@ -172,12 +172,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>12:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/3.jpg' alt='Cole Emmerich' />
                                 </div>
                                 <h4>
@@ -187,12 +187,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>02:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/4.jpg' alt='Jack Christiansen' />
                                 </div>
                                 <h4>
@@ -202,12 +202,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>03:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/5.jpg' alt='Alejandrin Littel' />
                                 </div>
                                 <h4>
@@ -217,12 +217,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>04:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/6.jpg' alt='Willow Trantow' />
                                 </div>
                                 <h4>
@@ -235,13 +235,13 @@ const Event = () => {
                     {/* <!-- End Schdule Day 2 --> */}
 
                     {/* <!-- Schdule Day 3 --> */}
-                    <div role='tabpanel' class='col-lg-9  tab-pane fade' id='day-3'>
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                    <div role='tabpanel' className='col-lg-9  tab-pane fade' id='day-3'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>10:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/2.jpg' alt='Hubert Hirthe' />
                                 </div>
                                 <h4>
@@ -251,12 +251,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>11:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/3.jpg' alt='Cole Emmerich' />
                                 </div>
                                 <h4>
@@ -266,12 +266,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>12:00 AM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/1.jpg' alt='Brenden Legros' />
                                 </div>
                                 <h4>
@@ -281,12 +281,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>02:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/4.jpg' alt='Jack Christiansen' />
                                 </div>
                                 <h4>
@@ -296,12 +296,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>03:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/5.jpg' alt='Alejandrin Littel' />
                                 </div>
                                 <h4>
@@ -311,12 +311,12 @@ const Event = () => {
                             </div>
                         </div>
 
-                        <div class='row schedule-item'>
-                            <div class='col-md-2'>
+                        <div className='row schedule-item'>
+                            <div className='col-md-2'>
                                 <time>04:00 PM</time>
                             </div>
-                            <div class='col-md-10'>
-                                <div class='speaker'>
+                            <div className='col-md-10'>
+                                <div className='speaker'>
                                     <img src='assets/img/speakers/6.jpg' alt='Willow Trantow' />
                                 </div>
                                 <h4>

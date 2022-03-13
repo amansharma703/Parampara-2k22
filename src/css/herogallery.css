@@ -1,0 +1,13 @@
+.slider_area .single_slider .slider_text  #new_shape_2 {
+    position: absolute;
+    left: 158px;
+    bottom: 5px;
+    z-index: -1;
+}
+
+.slider_area .single_slider .slider_text .new_shape_1 {
+    position: absolute;
+    right: 120px;
+    top: -143px;
+    z-index: -1;
+}

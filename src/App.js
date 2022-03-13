@@ -14,12 +14,8 @@ import CulturalPage from './Pages/CulturalPage';
 import SportsPage from './Pages/SportsPage';
 import ParticlesEffect from './components/utils/ParticlesEffect';
 import Error404 from './components/Error404';
-// impoer Error404
 
 function App() {
-    useEffect(() => {
-        Aos.init();
-    }, []);
     return (
         <>
             <Router>

@@ -1,5 +1,6 @@
 import React from 'react';
 import FaceBook from './SocialPlugins/FaceBook';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -48,21 +49,24 @@ function Footer() {
                                         // title='YouTube video player'
                                         // frameborder='0'
                                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                                        allowfullscreen
+                                        allowFullscreen='true'
                                     ></iframe>
                                     <h3 className='wow fadeInUp'>Quick Links</h3>
                                     <ul className='list-unstyled wow fadeInUp'>
                                         <li>
-                                            <a href='/#about'>About Us</a>
+                                            <NavLink to='#about'> About</NavLink>
                                         </li>
                                         <li>
-                                            <a href='#'>Speakers</a>
+                                            <NavLink to='/techevent'> Events</NavLink>
+                                            {/* <a href='#'>Speakers</a> */}
                                         </li>
                                         <li>
-                                            <a href='#'>Gallery</a>
+                                            <NavLink to='/gallery'> Gallery</NavLink>
+                                            {/* <a href='/gallery'>Gallery</a> */}
                                         </li>
                                         <li>
-                                            <a href='/contact'>Contact Us</a>
+                                            <NavLink to='/contact'> Contact Us</NavLink>
+                                            {/* <a href='/contact'>Contact Us</a> */}
                                         </li>
                                     </ul>
                                 </div>
@@ -85,7 +89,7 @@ function Footer() {
                                             <i className='ti-world'></i>
                                         </a>
                                     </p>
-                                    <h3 className='wow fadeInUp'>Ours Vision</h3>
+                                    <h3 className='wow fadeInUp'>Our Vision</h3>
                                     <ul className=' list-unstyled vision wow fadeInUp'>
                                         <li>
                                             To impart quality technical education through competent faculty by providing good infrastructure, open
@@ -100,8 +104,6 @@ function Footer() {
                                             ahead.
                                         </li>
                                     </ul>
-
-                                    {/* <p className='wow fadeInUp about'>The Greatness In The Cultural Is Found In The Festivals.</p> */}
                                 </div>
                             </div>
                             <div className='row'>
@@ -109,7 +111,8 @@ function Footer() {
                                     <div className='border-top pt-5'>
                                         <p className='list-unstyled'>
                                             Copyright © <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | {}
-                                            <a href='/#'>parampara.in</a>
+                                            {/* <a href='/#'>parampara.in</a> | */}
+                                            <a href='https://www.itmgkp.edu.in/'> itmgkp.edu.in </a>
                                         </p>
                                     </div>
                                 </div>

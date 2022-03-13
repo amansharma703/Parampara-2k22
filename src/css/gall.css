@@ -1,0 +1,147 @@
+/* ==============================
+   Portfolio
+   ============================== */
+.filter li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.filter li a {
+  color: #555;
+  font-size: 0.85em;
+  padding: 10px 10px;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+}
+.filter li a:hover {
+  border-bottom: 1px solid #00b2ca;
+}
+.filter li.active a {
+  border-bottom: 1px solid #00b2ca;
+}
+.work-item {
+  text-align: center;
+  margin: 15px 0;
+}
+.work-item .figure {
+  -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.work-item .figure img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.work-item .figure .figcaption {
+  color: #111;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.work-item .figure .figcaption::before,
+.work-item .figure .figcaption::after {
+  pointer-events: none;
+}
+.work-item .figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.work-item .figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.work-item .figure h5,
+.work-item .figure p {
+  margin: 0;
+}
+.work-item .figure h5 {
+  padding-top: 10px;
+}
+.work-item .figure p {
+  padding: 5px 0;
+}
+.figure.effect-hover img {
+  -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+  -moz-transition: -moz-transform 0.35s, opacity 0.35s;
+  -o-transition: -o-transform 0.35s, opacity 0.35s;
+  -ms-transition: -ms-transform 0.35s, opacity 0.35s;
+  transition: transform 0.35s, opacity 0.35s;
+}
+.figure.effect-hover .figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+  -o-transition: opacity 0.35s, -o-transform 0.35s;
+  -ms-transition: opacity 0.35s, -ms-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.figure.effect-hover .figcaption h5 {
+  font-weight: 400;
+  color: #111;
+}
+.figure.effect-hover .figcaption p {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.figure.effect-hover:hover .figcaption {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.figure.effect-hover:hover img {
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.call-to-action h5 {
+  color: #777;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+/*
+ * Portfolio single
+ */

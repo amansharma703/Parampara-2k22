@@ -13,7 +13,7 @@ const Header = () => {
                                     <div className='col-xl-3 col-lg-3'>
                                         <div className='logo'>
                                             <NavLink to='/'>
-                                                <img id='logo-min' src='/img/logo2.png' style={{ width: '80%' }} alt='' />
+                                                <img id='logo-min' src='/img/logo.png' style={{ width: '80%' }} alt='' />
                                             </NavLink>
                                         </div>
                                     </div>
@@ -74,7 +74,6 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            {/* <!-- header-end --> */}
         </>
     );
 };

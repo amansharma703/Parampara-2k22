@@ -20,7 +20,7 @@ let SportEvent = [
         img: 'https://source.unsplash.com/random/300×300/?football',
 
         date: '-',
-        handler: 'Suryansh Bhargaw',
+        handler: 'Suryansh Bhargw',
         contact: '7905320817',
     },
     {

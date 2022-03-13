@@ -7,128 +7,121 @@ import SportEvent from '../models/SportEvent';
 const Eventschedule = () => {
     return (
         <>
-            <section class='performar_area schedule black_bg '>
-                <div class='container'>
+            <section className='performar_area schedule eventschedule_bg'>
+                <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>
                             <div className='section_title mb-75'>
-                                <h3 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.3s'>
+                                <h3 className='wow fadeInRight text-black' data-wow-duration='1s' data-wow-delay='.3s'>
                                     Event Schedule
                                 </h3>
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='col-12'>
-                            <div class='schedule-tab'>
-                                <ul class='nav nav-pills text-center'>
-                                    <li class='nav-item'>
-                                        <a class='nav-link active' href='#nov20' data-toggle='pill'>
-                                            {/* Day-01 */}
+                    <div className='row'>
+                        <div className='col-12'>
+                            <div className='schedule-tab'>
+                                <ul className='nav nav-pills text-center'>
+                                    <li className='nav-item'>
+                                        <a className='nav-link active' href='#nov20' data-toggle='pill'>
                                             Technical
-                                            {/* <span>7 April 2022</span> */}
                                         </a>
                                     </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' href='#nov21' data-toggle='pill'>
-                                            {/* Day-02 */}
-                                            {/* <span>8 April 2022</span> */}
+                                    <li className='nav-item'>
+                                        <a className='nav-link' href='#nov21' data-toggle='pill'>
                                             Cultural
                                         </a>
                                     </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' href='#nov22' data-toggle='pill'>
-                                            {/* Day-03 */}
-                                            {/* <span>9 April 2022</span>
-                                             */}
+                                    <li className='nav-item'>
+                                        <a className='nav-link' href='#nov22' data-toggle='pill'>
                                             Sports
                                         </a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class='schedule-contents bg-schedule'>
-                                <div class='tab-content' id='pills-tabContent'>
-                                    <div class='tab-pane fade show active schedule-item' id='nov20'>
+                            <div className='schedule-contents bg-schedule'>
+                                <div className='tab-content' id='pills-tabContent'>
+                                    <div className='tab-pane fade show active schedule-item' id='nov20'>
                                         {/* <!-- Headings --> */}
-                                        <ul class='m-0 p-0'>
-                                            <li class='headings'>
-                                                <div class='time'>Event Name</div>
-                                                <div class='speaker'>Date</div>
-                                                <div class='subject'>Co-ordinator</div>
-                                                <div class='venue'>Contact</div>
+                                        <ul className='m-0 p-0'>
+                                            <li className='headings'>
+                                                <div className='time'>Event Name</div>
+                                                <div className='speaker'>Date</div>
+                                                <div className='subject'>Co-ordinator</div>
+                                                <div className='venue'>Contact</div>
                                             </li>
                                             {/* <!-- Schedule Details --> */}
                                             {TechEvent.map((item, index) => {
                                                 return (
-                                                    <li class='schedule-details'>
-                                                        <div class='block'>
-                                                            <div class='time'>
-                                                                <i class='fa fa-clock-o'></i>
-                                                                <span class='time'>{item.title}</span>
+                                                    <li key={index} className='schedule-details'>
+                                                        <div className='block'>
+                                                            <div className='time'>
+                                                                <i className='fa fa-clock-o'></i>
+                                                                <span className='time'>{item.title}</span>
                                                             </div>
-                                                            <div class='speaker'>
-                                                                <span class='name'>{item.date}</span>
+                                                            <div className='speaker'>
+                                                                <span className='name'>{item.date}</span>
                                                             </div>
-                                                            <div class='subject'>{item.handler}</div>
-                                                            <div class='venue'>{item.contact}</div>
+                                                            <div className='subject'>{item.handler}</div>
+                                                            <div className='venue'>{item.contact}</div>
                                                         </div>
                                                     </li>
                                                 );
                                             })}
                                         </ul>
                                     </div>
-                                    <div class='tab-pane fade schedule-item' id='nov21'>
+                                    <div className='tab-pane fade schedule-item' id='nov21'>
                                         {/* <!-- Headings --> */}
-                                        <ul class='m-0 p-0'>
-                                            <li class='headings'>
-                                                <div class='time'>Event Name</div>
-                                                <div class='speaker'>Date</div>
-                                                <div class='subject'>Co-ordinator</div>
-                                                <div class='venue'>Contact</div>
+                                        <ul className='m-0 p-0'>
+                                            <li className='headings'>
+                                                <div className='time'>Event Name</div>
+                                                <div className='speaker'>Date</div>
+                                                <div className='subject'>Co-ordinator</div>
+                                                <div className='venue'>Contact</div>
                                             </li>
                                             {/* <!-- Schedule Details --> */}
                                             {CulturalEvent.map((item, index) => {
                                                 return (
-                                                    <li class='schedule-details'>
-                                                        <div class='block'>
-                                                            <div class='time'>
-                                                                <i class='fa fa-clock-o'></i>
-                                                                <span class='time'>{item.title}</span>
+                                                    <li key={index} className='schedule-details'>
+                                                        <div className='block'>
+                                                            <div className='time'>
+                                                                <i className='fa fa-clock-o'></i>
+                                                                <span className='time'>{item.title}</span>
                                                             </div>
-                                                            <div class='speaker'>
-                                                                <span class='name'>{item.date}</span>
+                                                            <div className='speaker'>
+                                                                <span className='name'>{item.date}</span>
                                                             </div>
-                                                            <div class='subject'>{item.handler}</div>
-                                                            <div class='venue'>{item.contact}</div>
+                                                            <div className='subject'>{item.handler}</div>
+                                                            <div className='venue'>{item.contact}</div>
                                                         </div>
                                                     </li>
                                                 );
                                             })}
                                         </ul>
                                     </div>
-                                    <div class='tab-pane fade schedule-item' id='nov22'>
+                                    <div className='tab-pane fade schedule-item' id='nov22'>
                                         {/* <!-- Headings --> */}
-                                        <ul class='m-0 p-0'>
-                                            <li class='headings'>
-                                                <div class='time'>Event Name</div>
-                                                <div class='speaker'>Date</div>
-                                                <div class='subject'>Co-ordinator</div>
-                                                <div class='venue'>Contact</div>
+                                        <ul className='m-0 p-0'>
+                                            <li className='headings'>
+                                                <div className='time'>Event Name</div>
+                                                <div className='speaker'>Date</div>
+                                                <div className='subject'>Co-ordinator</div>
+                                                <div className='venue'>Contact</div>
                                             </li>
 
                                             {SportEvent.map((item, index) => {
                                                 return (
-                                                    <li class='schedule-details'>
-                                                        <div class='block'>
-                                                            <div class='time'>
-                                                                <i class='fa fa-clock-o'></i>
-                                                                <span class='time'>{item.title}</span>
+                                                    <li key={index} className='schedule-details'>
+                                                        <div className='block'>
+                                                            <div className='time'>
+                                                                <i className='fa fa-clock-o'></i>
+                                                                <span className='time'>{item.title}</span>
                                                             </div>
-                                                            <div class='speaker'>
-                                                                <span class='name'>{item.date}</span>
+                                                            <div className='speaker'>
+                                                                <span className='name'>{item.date}</span>
                                                             </div>
-                                                            <div class='subject'>{item.handler}</div>
-                                                            <div class='venue'>{item.contact}</div>
+                                                            <div className='subject'>{item.handler}</div>
+                                                            <div className='venue'>{item.contact}</div>
                                                         </div>
                                                     </li>
                                                 );

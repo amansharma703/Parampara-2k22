@@ -23,7 +23,7 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
-  color: #ff6600;
+  color: #FF4533;
   font-weight: 500;
   display: block;
   border-radius: 0;
@@ -41,7 +41,7 @@
 }
 
 .schedule .schedule-tab ul li.nav-item a.active {
-  background: #ff6600;
+  background: #FF4533;
   color: #fff;
   position: relative;
 }
@@ -59,7 +59,7 @@
   height: 0;
   border-style: solid;
   border-width: 0 20px 20px 0;
-  border-color: transparent #ff6600 transparent transparent;
+  border-color: transparent #FF4533 transparent transparent;
 }
 
 @media (max-width: 767px) {
@@ -124,11 +124,7 @@
   }
 }
 
-@media (max-width: 480px) {
-  .schedule .schedule-contents .schedule-item ul li .speaker img {
-    display: none;
-  }
-}
+
 
 .schedule .schedule-contents .schedule-item ul li .subject {
   width: 30%;
@@ -148,7 +144,7 @@
 
 .schedule .schedule-contents .schedule-item li.headings {
   padding: 22px 40px;
-  background: #ff6600;
+  background: #FF4533;
 }
 
 .schedule .schedule-contents .schedule-item li.headings div {
@@ -181,9 +177,7 @@
   color: #c7c8c9;
 }
 
-.schedule .schedule-contents .schedule-item li.schedule-details .block div img {
-  border-radius: 100%;
-}
+
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div span.time {
   margin-left: 5px;
@@ -318,7 +312,7 @@
   width: 20%;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .schedule.two .schedule-contents .schedule-item ul li .time {
     width: 37%;
   }
@@ -328,12 +322,12 @@
   .schedule.two .schedule-contents .schedule-item ul li .time {
     width: 48%;
   }
-}
+} */
 
 .schedule.two .schedule-contents .schedule-item ul li .speaker {
   width: 30%;
 }
-
+/* 
 @media (max-width: 991px) {
   .schedule.two .schedule-contents .schedule-item ul li .speaker {
     width: 50%;
@@ -360,7 +354,7 @@
   .schedule.two .schedule-contents .schedule-item ul li .subject {
     display: none;
   }
-}
+} */
 
 .schedule.two .schedule-contents .schedule-item ul li .venue {
   width: 18.6%;
