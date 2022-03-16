@@ -13,9 +13,9 @@ const ProgramDetails = () => {
                                     About Program
                                 </h3>
                                 <p className='wow fadeInRight text-black' data-wow-duration='1s' data-wow-delay='.4s'>
-                                    Parampara is the annual science and technology festival of the ITM GIda, Gorakhpur. Tech, Cultural and Sport fest
-                                    originated in 2001 to provide a platform for the Indian student community to develop and showcase their powers in
-                                    their respective field.
+                                    Parampara is the annual science and technology festival of the ITM Gida, Gorakhpur. Technical, Cultural and Sports
+                                    fest originated in 2001 to provide a platform for the Indian student community to develop and showcase their
+                                    powers in their respective field.
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,13 @@ const ProgramDetails = () => {
                                     The event regularly attracts a diverse range of attendees from around the world, across different professions, and
                                     with different levels of experience transform your business.
                                 </p>
-                                <a href='#' className='boxed-btn3  wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.7s'>
+                                <a
+                                    href='https://docs.google.com/forms/d/1yMgIqfgdG86AVeY-QHqdCMIYxoq6v-brsRWCbM2ffFg/viewform?edit_requested=true'
+                                    target='_blank'
+                                    className='boxed-btn3  wow fadeInLeft'
+                                    data-wow-duration='1s'
+                                    data-wow-delay='.7s'
+                                >
                                     Buy Tickets
                                 </a>
                             </div>

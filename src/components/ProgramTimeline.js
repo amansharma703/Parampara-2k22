@@ -50,7 +50,7 @@ const ProgramTimeline = (props) => {
                                             <img src='img/program_details/2.jpg' alt='' />
                                         </div>
                                         <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.6s'>
-                                            Race Rodies
+                                            100M Race
                                         </h4>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@ const ProgramTimeline = (props) => {
                                             </h4> */}
                                         </div>
                                         <div className='thumb  wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.5s'>
-                                            <img src='img/program_details/3.png' alt='' />
+                                            <img src='img/program_details/3.jpg' alt='' />
                                         </div>
                                         <h4 className=' wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.6s'>
                                             Robo War
@@ -88,7 +88,7 @@ const ProgramTimeline = (props) => {
                                             <img src='img/program_details/4.jpg' alt='' />
                                         </div>
                                         <h4 className='wow fadeInRight' data-wow-duration='1s' data-wow-delay='.6s'>
-                                            Cultural Mirage
+                                            Dancing
                                         </h4>
                                     </div>
                                 </div>
@@ -104,10 +104,10 @@ const ProgramTimeline = (props) => {
                                             </h4> */}
                                         </div>
                                         <div className='thumb wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.5s'>
-                                            <img src='img/program_details/5.jpg' alt='' />
+                                            <img src='img/program_details/6.jpg' alt='' />
                                         </div>
                                         <h4 className='wow fadeInLeft' data-wow-duration='1s' data-wow-delay='.6s'>
-                                            Coding Hackathon
+                                            Code Monk
                                         </h4>
                                     </div>
                                 </div>

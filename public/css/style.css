@@ -769,6 +769,7 @@ h3 {
     font-size: 35px;
     line-height: 36px;
     text-align: center;
+    padding-top: 30px;
   }
 }
 
@@ -1179,7 +1180,7 @@ h3 {
 /* line 100, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .buy_tkt .book_btn a {
   background: #FF4533;
-  font-family: "Anton", sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 12px 46px;
   font-size: 16px;
   font-weight: 400;
@@ -1233,7 +1234,11 @@ h3 {
 
 /* line 139, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
+  font-family: "Muli", sans-serif !important;
+  /* letter-spacing: 2px; */
   color: #fff;
+  /* font-style: b; */
+  font-weight: 800;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 400;
@@ -1364,7 +1369,7 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: -70px;
+  top: -72px;
   left: 0;
   right: 0;
   z-index: 990;
@@ -1551,6 +1556,8 @@ h3 {
   background-image: url(../img/banner/contact_bg.jpg);
 }
 
+
+
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
@@ -1566,6 +1573,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
+
+  .event_bg .center_content{
+    display: flex;
+    justify-content: center;
+  }
   .bg-black-gradient {
   /* background-color: #000000; */
   background-image: url(../img/banner/performer_bg2.jpg);

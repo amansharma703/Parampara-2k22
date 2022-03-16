@@ -61,7 +61,12 @@ const Header = () => {
                                     <div className='col-xl-3 col-lg-3 d-none d-lg-block'>
                                         <div className='buy_tkt'>
                                             <div className='book_btn d-none d-lg-block'>
-                                                <a href='#'>Buy Pass</a>
+                                                <a
+                                                    href='https://docs.google.com/forms/d/1yMgIqfgdG86AVeY-QHqdCMIYxoq6v-brsRWCbM2ffFg/viewform?edit_requested=true'
+                                                    target='_blank'
+                                                >
+                                                    Buy Tickets
+                                                </a>
                                             </div>
                                         </div>
                                     </div>

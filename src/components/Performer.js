@@ -10,20 +10,16 @@ const Performer = () => {
             imgSrc: '/img/performer/1.png',
             type: 'Singer',
         },
-        {
-            name: 'Piyush Verma',
-            imgSrc: '/img/performer/2.jpg',
-            type: 'Musician',
-        },
-        {
-            name: 'Ankit',
-            imgSrc: '/img/performer/3.jpg',
-            type: 'Singer',
-        },
+
         {
             name: 'DJ Hermus',
             imgSrc: '/img/performer/5.jpg',
             type: 'DJ',
+        },
+        {
+            name: 'Piyush Verma',
+            imgSrc: '/img/performer/2.jpg',
+            type: 'Musician',
         },
         {
             name: 'Mohd Shadan',
@@ -31,9 +27,14 @@ const Performer = () => {
             type: 'Singer',
         },
         {
-            name: 'Jatin Agni',
+            name: 'Satyam',
+            imgSrc: '/img/performer/7.jpg',
+            type: 'Fashion',
+        },
+        {
+            name: 'Suparna Mukherjee',
             imgSrc: '/img/performer/3.jpg',
-            type: 'Singer',
+            type: 'Dancer',
         },
     ];
     return (

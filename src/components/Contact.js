@@ -152,15 +152,16 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className='media contact-info'>
-                                <span className='contact-info__icon'>
+                                <span className='contact-info__icon mb-2'>
                                     <i className='ti-tablet'></i>
                                 </span>
                                 <div className='media-body'>
-                                    <h4>+91 9369438757</h4>
+                                    <h4>+91 8081209480</h4>
+                                    <h4>+91 9102575281</h4>
                                     <p>Mon to Fri 9am to 6pm</p>
                                 </div>
                             </div>
-                            <div className='media contact-info'>
+                            {/* <div className='media contact-info'>
                                 <span className='contact-info__icon'>
                                     <i className='ti-email'></i>
                                 </span>
@@ -168,7 +169,7 @@ const Contact = () => {
                                     <h4>aman703jk@gmail.com</h4>
                                     <p>Send us your query anytime!</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

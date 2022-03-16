@@ -1,148 +1,140 @@
 let CulturalEvent = [
     {
         title: 'Rangoli',
-        img: 'https://source.unsplash.com/random/300×300/?rangoli',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Nidhi Srivastava',
+        contact: '7985767367',
     },
     {
         title: 'Flower Pot Painting',
-        img: 'https://source.unsplash.com/random/300×300/?painting',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Gulgaz Haque',
+        contact: '9335428407',
     },
     {
         title: 'Singing',
-        img: 'https://source.unsplash.com/random/300×300/?singing',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Piyush Verma',
+        contact: '8303105445',
     },
     {
         title: 'Dancing',
-        img: 'https://source.unsplash.com/random/300×300/?dancing',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Nivedita Mishra',
+        contact: '6388529547',
     },
     {
-        title: 'Poster',
-        img: 'https://source.unsplash.com/random/300×300/?poster',
+        title: 'Poster Making',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Vishwa Prakash Singh',
+        contact: '8188867128',
     },
     {
         title: 'Battle of Band',
-        img: 'https://source.unsplash.com/random/300×300/?battle',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Pranav Pandey',
+        contact: '7752835116',
     },
     {
-        title: 'Filmistan',
-        img: 'https://source.unsplash.com/random/300×300/?film',
-
+        title: 'Filmistaan',
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Sulabh Patel',
+        contact: '9795744157',
     },
     {
         title: 'Treasure Hunt',
-        img: 'https://source.unsplash.com/random/300×300/?treasure',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Nupur Niboria',
+        contact: '8299216384',
     },
     {
         title: 'Skit',
-        img: 'https://source.unsplash.com/random/300×300/?skit',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Saumya dwivedi',
+        contact: '6386219238',
     },
     {
-        title: 'Ethnic Modelling',
-        img: 'https://source.unsplash.com/random/300×300/?ethnic',
-
+        title: 'The Super Heroes',
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Aditya Yadav',
+        contact: '7905571037',
     },
 
     {
         title: 'Laughter Drive',
-        img: 'https://source.unsplash.com/random/300×300/?drive',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Divyansh Raman Tripathi',
+        contact: '7068002218',
     },
     {
         title: 'Best Out of Waste',
-        img: 'https://source.unsplash.com/random/300×300/?waste',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Harshita Vaish',
+        contact: '7985856451',
     },
     {
         title: 'Mehndi Design',
-        img: 'https://source.unsplash.com/random/300×300/?mehndi',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Riya Singh',
+        contact: '9140325175',
     },
     {
         title: 'T-shirt Painting',
-        img: 'https://source.unsplash.com/random/300×300/?painting',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Shreya Yadav',
+        contact: '6306289470',
     },
     {
         title: 'Dumb Charades',
-        img: 'https://source.unsplash.com/random/300×300/?play',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Arshi',
+        contact: '8840268155',
     },
     {
         title: 'Poetry',
-        img: 'https://source.unsplash.com/random/300×300/?poetry',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Aditya Chaurasiya',
+        contact: '9554959927',
     },
     {
         title: 'Face Painting',
-        img: 'https://source.unsplash.com/random/300×300/?painting',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Isha Vishwakarma',
+        contact: '6392419740',
     },
     {
         title: 'Nail Art',
-        img: 'https://source.unsplash.com/random/300×300/?nailart',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Malvika Mishra',
+        contact: '6387761275',
     },
 ];
 

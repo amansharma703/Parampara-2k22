@@ -13,9 +13,8 @@
 }
 
 @media (max-width: 767px) {
-  .schedule .schedule-tab ul li.nav-item {
-    width: 100%;
-    margin-bottom: 10px;
+  .eventschedule_bg{
+    display: none !important;
   }
 }
 

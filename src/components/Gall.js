@@ -11,7 +11,6 @@ const Gall = () => {
         const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/highlighted.json');
         const data = await res.json();
         setGalleryData(data);
-        console.log(data);
     };
     useEffect(() => {
         getData();

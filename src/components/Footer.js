@@ -21,7 +21,13 @@ function Footer() {
                                         <p className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.5s'>
                                             The event regularly attracts a diverse range of attendees from around the state.
                                         </p>
-                                        <a href='#' className='boxed-btn3 wow fadeInUp' data-wow-duration='1s' data-wow-delay='.6s'>
+                                        <a
+                                            href='https://docs.google.com/forms/d/1yMgIqfgdG86AVeY-QHqdCMIYxoq6v-brsRWCbM2ffFg/viewform?edit_requested=true'
+                                            target='_blank'
+                                            className='boxed-btn3 wow fadeInUp'
+                                            data-wow-duration='1s'
+                                            data-wow-delay='.6s'
+                                        >
                                             Buy Tickets
                                         </a>
                                     </div>
@@ -40,12 +46,11 @@ function Footer() {
                                 </div>
                                 <div className='col-md-4  py-3'>
                                     <h3 className='wow fadeInUp'>Youtube </h3>
-                                    {/* <iframe src='https://www.youtube.com/embed/cWDJoK8zw58'></iframe> */}
                                     <iframe
                                         className='wow fadeInUp'
                                         width='80%'
                                         height='50%'
-                                        src='https://www.youtube.com/embed/2s8rxxNtyZQ'
+                                        src='https://www.youtube.com/embed/qc3inn7uD8k'
                                         // title='YouTube video player'
                                         // frameborder='0'
                                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

@@ -1,7 +1,7 @@
 let SportEvent = [
     {
         title: 'Kho-Kho',
-        img: 'https://source.unsplash.com/random/300×300/?bridge',
+        img: '',
 
         date: '-',
         handler: 'Shivam Pandey',
@@ -9,15 +9,15 @@ let SportEvent = [
     },
     {
         title: 'Kabaddi',
-        img: 'https://source.unsplash.com/random/300×300/?kabaddi',
+        img: '',
 
         date: '-',
-        handler: 'Prashant',
-        contact: '9369438757',
+        handler: 'Prashant Upadhay',
+        contact: '8726803927',
     },
     {
         title: 'Football',
-        img: 'https://source.unsplash.com/random/300×300/?football',
+        img: '',
 
         date: '-',
         handler: 'Suryansh Bhargw',
@@ -25,83 +25,82 @@ let SportEvent = [
     },
     {
         title: 'Table Tennis',
-        img: 'https://source.unsplash.com/random/300×300/?tennis',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Shruti Pandey',
+        contact: '8840730453',
     },
     {
         title: 'BasketBall',
-        img: 'https://source.unsplash.com/random/300×300/?basketball',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Aparna Singh ',
+        contact: '7572009332',
     },
     {
         title: 'VolleyBall',
-        img: 'https://source.unsplash.com/random/300×300/?volleyball',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Mohd. Amir',
+        contact: '8601184126',
     },
     {
         title: 'Badminton',
-        img: 'https://source.unsplash.com/random/300×300/?badminton',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Mohd. Amir',
+        contact: '8601184126',
     },
     {
         title: 'Chess',
-        img: 'https://source.unsplash.com/random/300×300/?chess',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Sangam Prajapati ',
+        contact: '8840362834',
     },
     {
         title: 'Long Jump',
-        img: 'https://source.unsplash.com/random/300×300/?longjump',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Sandeep Yadav',
+        contact: '6388420374',
     },
     {
         title: 'High Jump',
-        img: 'https://source.unsplash.com/random/300×300/?highjump',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Nashra',
+        contact: '8840802248',
     },
     {
-        title: 'Discus',
-        img: 'https://source.unsplash.com/random/300×300/?discussion',
+        title: 'Discus Throw',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Faisal Khan',
+        contact: '9792519838',
     },
     {
         title: 'Shotput',
-        img: 'https://source.unsplash.com/random/300×300/?shotgun',
-
+        img: '',
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Faisal Khan ',
+        contact: '9792519838',
     },
     {
         title: '100M Race',
-        img: 'https://source.unsplash.com/random/300×300/?race',
+        img: '',
 
         date: '-',
-        handler: '-',
-        contact: '-',
+        handler: 'Shobit Raha',
+        contact: '7355337465',
     },
 ];
 
