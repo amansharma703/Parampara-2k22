@@ -114,11 +114,24 @@ function Footer() {
                             <div className='row'>
                                 <div className='col-md-12 text-center'>
                                     <div className='border-top pt-5'>
-                                        <p className='list-unstyled'>
-                                            Copyright © <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | {}
-                                            {/* <a href='/#'>parampara.in</a> | */}
-                                            <a href='https://www.itmgkp.edu.in/'> itmgkp.edu.in </a>
-                                        </p>
+                                        <div className='second-footer'>
+                                            <p className='list-unstyled wow fadeInUp'>
+                                                Copyright © <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | {}
+                                                {/* <a href='/#'>parampara.in</a> | */}
+                                                <a href='https://www.itmgkp.edu.in/'> itmgkp.edu.in </a>
+                                            </p>
+                                            <p className='list-unstyled wow fadeInUp'>
+                                                Developed with ❤️ by
+                                                <a href='https://amansharma703.vercel.app/' target='_black'>
+                                                    {' '}
+                                                    Aman Sharma{' '}
+                                                </a>{' '}
+                                                &{' '}
+                                                <a href='https://www.linkedin.com/in/rahul-ranjan-singh/' target='_black'>
+                                                    Rahul Ranjan Singh
+                                                </a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

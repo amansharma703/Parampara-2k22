@@ -9,6 +9,7 @@ import FaceBook from '../components/SocialPlugins/FaceBook';
 import Eventschedule from '../components/Eventschedule';
 import CardPage from '../components/CardPage';
 import Gall from '../components/Gall';
+import MobilePromo from '../components/MobilePromo';
 
 const HomePage = () => {
     return (
@@ -18,8 +19,9 @@ const HomePage = () => {
             <ProgramDetails />
             <Eventschedule />
             <Gall />
-            <ProgramTimeline />
             {/* <Sponsers /> */}
+            <MobilePromo />
+            <ProgramTimeline />
         </>
     );
 };

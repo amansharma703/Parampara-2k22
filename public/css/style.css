@@ -465,6 +465,41 @@ h3 {
   padding-left: 68px;
 }
 
+.mobile_promo{
+  padding-top: 50px;
+  /* padding-bottom: 25px; */
+}
+
+.mobile_promo p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Muli", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .mobile_promo{
+  padding-top: 50px;
+  text-align: center ;
+  /* padding-bottom: 25px; */
+  }
+
+  .mobile_promo p {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 10px;
+  line-height: 32px;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Muli", sans-serif;
+}
+}
+
+
 @media (max-width: 767px) {
   /* line 330, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
   .pl-68 {
@@ -769,7 +804,7 @@ h3 {
     font-size: 35px;
     line-height: 36px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 }
 
@@ -1246,7 +1281,7 @@ h3 {
   padding: 30px 0 30px  0;
   font-family: "Anton", sans-serif;
   position: relative;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -2362,7 +2397,11 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_brand.scss */
 .brand_area {
-  padding-top: 150px;
+  padding-top: 100px;
+}
+
+.brand_area .section_title h4{
+  font-size: 50px;
 }
 
 @media (max-width: 767px) {
@@ -2370,6 +2409,10 @@ h3 {
   .brand_area {
     padding-top: 60px;
   }
+
+  .brand_area .section_title h4{
+  font-size: 35px;
+}
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_brand.scss */
@@ -2663,7 +2706,7 @@ color: #AAB1B7;
   list-style: circle;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #fff;
+  color: #AAB1B7;
 }
 
 .list-unstyled a:hover{
@@ -2738,10 +2781,14 @@ color: #AAB1B7;
   color: #fff;
 }
 
+.footer .footer_top .footer_widget .second-footer{
+  padding-bottom: 10px;
+}
+
 /* line 28, ../../Arafath/CL/December/236. Event-02/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  margin-top: 25px;
-  margin-bottom: 41px;
+  padding-bottom: 5px;
+  /* margin-bottom: 41px; */
 }
 .footer .footer_top .footer_widget .about {
   margin-top: 0;
