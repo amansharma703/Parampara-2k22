@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Helmet from 'react-helmet';
 import CardPage from '../components/CardPage';
 import HeroEvent from '../components/HeroEvent';
 const TechnicalPage = () => {
@@ -13,6 +14,13 @@ const TechnicalPage = () => {
     }, []);
     return (
         <>
+            <Helmet>
+                <title>Technical Events - Parampara 2k22</title>
+                <meta
+                    name='description'
+                    content='Here are the list of all Technical events, Among on show skills in various competition given below '
+                />
+            </Helmet>
             <HeroEvent name={`Technical`} message='All Technical schedules are here!' feed='7,8,9 April Be Ready to Rock' />
             {/* <ProgramTimeline /> */}
             <CardPage data={event} />

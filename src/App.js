@@ -14,11 +14,43 @@ import CulturalPage from './Pages/CulturalPage';
 import SportsPage from './Pages/SportsPage';
 import ParticlesEffect from './components/utils/ParticlesEffect';
 import Error404 from './components/Error404';
+import { Helmet } from 'react-helmet';
 
 function App() {
     return (
         <>
             <Router>
+                <Helmet>
+                    <title>Parampara 2k22</title>
+
+                    <meta
+                        name='description'
+                        content='Parampara is a Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'
+                    />
+                    <link rel='canonical' href='https://itmparampara.in/' />
+                    <meta name='keyword' content='Parampara 2k22, Itm Gida Gorakhpur, Techn0-cultural fest of ITM Gida Gorakhpur' />
+                    <meta name='robots' content='index, follow' />
+                    <meta name='googlebot' content='index, follow' />
+
+                    {/* <!-- Facebook Meta Tags -- > */}
+                    <meta property='og:url' content='https://itmparampara.in/' />
+                    <meta property='og:type' content='website' />
+                    <meta property='og:title' content='Parampara 2k22' />
+                    <meta
+                        property='og:description'
+                        content='Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'
+                    />
+
+                    {/* <!-- Twitter Meta Tags -- > */}
+                    <meta name='twitter:card' content='summary_large_image' />
+                    <meta property='twitter:domain' content='https://itmparampara.in/' />
+                    <meta property='twitter:url' content='https://itmparampara.in/' />
+                    <meta name='twitter:title' content='Vibehut' />
+                    <meta
+                        name='twitter:description'
+                        content='Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'
+                    />
+                </Helmet>
                 <ScrollToTop />
                 <Header />
                 {/* <ParticlesEffect /> */}
