@@ -50,10 +50,20 @@ function App() {
                         name='twitter:description'
                         content='Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'
                     />
+                    <meta name='distribution' content='global' />
+                    <meta name='copyright' content='parampara' />
+                    <meta name='language' content='English' />
+                    <meta name='rating' content='general' />
+                    <meta name='robots' content='ALL' />
+                    <meta name='revisit-after' content='Daily' />
+                    <meta name='author' content='parampara' />
+                    <meta name='bingbot' content=' index, follow ' />
+                    <meta name='reply-to' content=' Info.itmgida@gmail.com ' />
+                    <meta name='expires' content='never' />
+                    <meta name='coverage' content='Worldwide' />
                 </Helmet>
                 <ScrollToTop />
                 <Header />
-                {/* <ParticlesEffect /> */}
                 <Routes>
                     <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/performer' element={<PerformerPage />} />

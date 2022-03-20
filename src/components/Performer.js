@@ -46,7 +46,7 @@ const Performer = () => {
                         <div className='col-lg-12'>
                             <div className='section_title mb-75'>
                                 <h3 className='wow fadeInUp ' data-wow-duration='1s' data-wow-delay='.3s'>
-                                    Top Performer
+                                    Highlights
                                 </h3>
                             </div>
                         </div>

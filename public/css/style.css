@@ -1584,6 +1584,9 @@ h3 {
 .contact_bg{
   background-image: url(../img/banner/contact_bg2.jpg);
 }
+.contact-page{
+  background-image: url(../img/banner/contact_bg.jpg);
+}
 .event_bg{
   background-image: url(../img/banner/event_bg.jpg);
 }
