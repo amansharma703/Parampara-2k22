@@ -13,7 +13,6 @@ const ContactPage = () => {
             </Helmet>
             <HeroEvent name='Contact' message='We are here for You' />
             <ContactSecond />
-            {/* <Contact /> */}
         </>
     );
 };

@@ -91,7 +91,11 @@ const ContactSecond = () => {
 
                                                     <div class='contact-content'>
                                                         <div class='entry-title'>Phone</div>
-                                                        <div class='entry-content'>+91-8081209500</div>
+                                                        <div class='entry-content'>
+                                                            +91-9102575281
+                                                            <br />
+                                                            Jayesh Mani Tripathi
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,7 +108,7 @@ const ContactSecond = () => {
 
                                                     <div class='contact-content'>
                                                         <div class='entry-title'>E-mail</div>
-                                                        <div class='entry-content'>director.itm@gmail.com</div>
+                                                        <div class='entry-content'>parampara@itmgkp.edu.in</div>
                                                     </div>
                                                 </div>
                                             </div>

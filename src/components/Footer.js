@@ -13,13 +13,13 @@ function Footer() {
                                 <div className='footer_widget'>
                                     <div className='address_details text-center'>
                                         <h4 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.3s'>
-                                            7 Apr, 2022
+                                            7th, 8th & 9th Apr, 2k22
                                         </h4>
                                         <h3 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.4s'>
                                             Itm Gida, Gorakhpur
                                         </h3>
                                         <p className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.5s'>
-                                            The event regularly attracts a diverse range of attendees from around the state.
+                                            The event regularly attracts a diverse range of talent from around the state.
                                         </p>
                                         <a
                                             href='https://docs.google.com/forms/d/1yMgIqfgdG86AVeY-QHqdCMIYxoq6v-brsRWCbM2ffFg/viewform?edit_requested=true'
@@ -97,16 +97,20 @@ function Footer() {
                                     <h3 className='wow fadeInUp'>Our Vision</h3>
                                     <ul className=' list-unstyled vision wow fadeInUp'>
                                         <li>
-                                            To impart quality technical education through competent faculty by providing good infrastructure, open
-                                            education resources and learning experience.
+                                            Our vision of Parampara the annual fest is not only the degree. It is the wholesome growth of our students
+                                            to become a more sustainable, humane, and sensible placed candidate.
                                         </li>
                                         <li>
-                                            To provide skill oriented education to students, better interaction with industry and alumni to meet the
-                                            need of society and nation.
+                                            To create unforgettable experiences and encouters with a unique blend of world cultural set in our
+                                            manificent region.
                                         </li>
                                         <li>
-                                            To develop students to be competent professionals and with high ethical standards to face the challenges
-                                            ahead.
+                                            Integrity in all situations and transactions; respecting the opinions and perspectives of others,
+                                            accepting responsibility for our actions.
+                                        </li>
+                                        <li>
+                                            Representing the interests of all segments of our community and demonstrating sensitivity to their
+                                            diversity.
                                         </li>
                                     </ul>
                                 </div>
