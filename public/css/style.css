@@ -2429,6 +2429,17 @@ h3 {
   position: relative;
 }
 
+.map_area .main_map{
+  width: 100%;
+  height: 60vh;
+}
+
+
+.map_area .main_map .map_frame{
+  width: 100%;  
+  height: 60vh;
+}
+
 @media (max-width: 767px) {
   /* line 3, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
   .map_area #map {
@@ -2443,7 +2454,7 @@ h3 {
   bottom: 0;
   z-index: 9;
   padding: 65px 70px 70px 65px;
-  right: 20%;
+  right: 12%;
   max-width: 460px;
 }
 
@@ -2453,7 +2464,7 @@ h3 {
     padding: 20px;
     right: 20px;
     left: 20px;
-    bottom: 20px;
+    bottom: 0px;
   }
 }
 
@@ -2471,12 +2482,7 @@ h3 {
   margin-bottom: 7px;
 }
 
-@media (max-width: 767px) {
-  /* line 30, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
-  .map_area .location_information .info_wrap .single_info {
-    display: block;
-  }
-}
+
 
 /* line 36, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
 .map_area .location_information .info_wrap .single_info:last-child {
@@ -2487,7 +2493,7 @@ h3 {
 .map_area .location_information .info_wrap .single_info span {
   font-family: "Muli", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 20px;
   color: #AAB1B7;
 }
@@ -2512,7 +2518,7 @@ h3 {
 
 /* line 49, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
 .map_area .location_information .info_wrap .single_info p {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   font-weight: 600;
   margin-bottom: 0;
@@ -2559,9 +2565,9 @@ h3 {
   transform: translateX(-50%);
   content: '';
   background: rgba(255, 255, 255, 0.2);
-  height: 73%;
+  height: 97%;
   width: 1px;
-  top: 0;
+  top: 20px;
   bottom: 0;
 }
 
@@ -2570,7 +2576,7 @@ h3 {
   .program_details_area .program_detail_wrap::before {
     left: 13px;
     transform: translateX(0);
-    height: 75%;
+    height: 96%;
   }
 }
 

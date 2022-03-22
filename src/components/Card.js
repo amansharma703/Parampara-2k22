@@ -21,12 +21,10 @@ const Card = (props) => {
                         <h3 className='card-title text-center'>{props.item.title}</h3>
                         <div>
                             <span>Event Timing : </span>
-                            {/* <span className='card-text'>{props.item.date}</span> */}
                             <span className='card-text'>Yet to Decide</span>
                         </div>
                         <div>
                             <span>Venue : </span>
-                            {/* <span className='card-text'>{props.item.date}</span> */}
                             <span className='card-text'>Yet to Decide</span>
                         </div>
                         <div>

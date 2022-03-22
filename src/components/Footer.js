@@ -40,7 +40,7 @@ function Footer() {
                     <div className='container'>
                         <div className='footer_widget'>
                             <div className='row mb-3 d-flex flex-row-reverse'>
-                                <div className='col-md-4 py-3'>
+                                <div className='col-md-4 py-3 px-3'>
                                     <h3 className='wow fadeInUp'>FaceBook Page</h3>
                                     <FaceBook />
                                 </div>
