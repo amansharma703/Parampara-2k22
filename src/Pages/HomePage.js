@@ -11,6 +11,7 @@ import CardPage from '../components/CardPage';
 import Gall from '../components/Gall';
 import MobilePromo from '../components/MobilePromo';
 import Map from '../components/Map';
+import VideoGallery from '../components/VideoGallery';
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
             <Performer />
             <ProgramDetails />
             <Eventschedule />
+            <VideoGallery />
             <Gall />
             <Map />
             {/* <Sponsers /> */}

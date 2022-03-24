@@ -19,13 +19,13 @@ const Gall = () => {
 
     return (
         <>
-            <section id='portfolio' className='bg-light py-5'>
+            <section className='bg-light py-5'>
                 <div className='container'>
                     <div className='row mt-40 mt-xs-20'>
                         <div className='col-md-12 text-center'>
-                            <h2>
+                            <h1>
                                 Parampara <b>Highlights</b>
-                            </h2>
+                            </h1>
                         </div>
                     </div>
                     <div className='row'>
@@ -36,7 +36,7 @@ const Gall = () => {
                 </div>
 
                 <div className='container'>
-                    <div data-wow-delay='0.1s' data-wow-duration='2s' className='work-container mt-40 mt-xs-20 wow fadeIn'>
+                    <div data-wow-delay='0.1s' data-wow-duration='1s' className='work-container mt-40 mt-xs-20 wow fadeIn'>
                         <div className='row px-4'>
                             {galleryData.map((item, index) => {
                                 return (
@@ -44,7 +44,7 @@ const Gall = () => {
                                         key={index}
                                         data-aos='fade-up'
                                         data-aos-offset='200'
-                                        data-aos-duration='1000'
+                                        data-aos-duration='500'
                                         data-aos-easing='ease-in-out'
                                         className='col-md-3 col-sm-4 col-xs-12 work-item headline events'
                                     >

@@ -30,12 +30,12 @@ const Gallery = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className=' text-center mb-30 mt-xs-10'>
+                        <div className=' text-center '>
                             <p> Parampara Events Gallery </p>
                         </div>
                     </div>
                 </div>
-                <div className='gallery px-5'>
+                <div className='gallery px-5 work-item'>
                     {galleryData.map((item, index) => {
                         return (
                             <div

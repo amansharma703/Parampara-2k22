@@ -40,9 +40,11 @@ function Footer() {
                     <div className='container'>
                         <div className='footer_widget'>
                             <div className='row mb-3 d-flex flex-row-reverse'>
-                                <div className='col-md-4 py-3 px-3'>
-                                    <h3 className='wow fadeInUp'>FaceBook Page</h3>
-                                    <FaceBook />
+                                <div className='col-md-4 py-3 px-2'>
+                                    <h3 className='wow fadeInUp mb-2'>FaceBook Page</h3>
+                                    <div>
+                                        <FaceBook />
+                                    </div>
                                 </div>
                                 <div className='col-md-4  py-3'>
                                     <h3 className='wow fadeInUp'>Youtube </h3>
@@ -76,8 +78,8 @@ function Footer() {
                                     </ul>
                                 </div>
                                 <div className='col-md-4 py-3'>
-                                    <h3 className='wow fadeInUp'>Connect with Us</h3>
-                                    <p className='send-referal wow fadeInUp'>
+                                    <h3 className='wow fadeInUp mb-3'>Connect with Us</h3>
+                                    <p className='mb-2 send-referal wow fadeInUp'>
                                         <a href='https://www.facebook.com/profile.php?id=Itmgkpofficial' target='_blank'>
                                             <i className='ti-facebook'></i>
                                         </a>
@@ -94,8 +96,8 @@ function Footer() {
                                             <i className='ti-world'></i>
                                         </a>
                                     </p>
-                                    <h3 className='wow fadeInUp'>Our Vision</h3>
-                                    <ul className=' list-unstyled vision wow fadeInUp'>
+                                    <h3 className='mb-2 wow fadeInUp'>Our Vision</h3>
+                                    <ul className='  vision wow fadeInUp'>
                                         <li>
                                             Our vision of Parampara the annual fest is not only the degree. It is the wholesome growth of our students
                                             to become a more sustainable, humane, and sensible placed candidate.

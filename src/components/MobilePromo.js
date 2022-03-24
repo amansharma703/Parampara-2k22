@@ -10,12 +10,12 @@ const MobilePromo = () => {
                             <div class='row align-items-center '>
                                 <div className='col-lg-9 col-md-8'>
                                     <p className='wow fadeInUp' data-wow-duration='.5s' data-wow-delay='.7s'>
-                                        Parampara 2k22 mobile App is live, Click here to Download
+                                        Parampara 2k22 mobile App is live on PlayStore, Click here to Download
                                     </p>
                                 </div>
                                 <div className='col-lg-3 col-md-4 '>
                                     <a
-                                        href='https://firebasestorage.googleapis.com/v0/b/parampara-48b01.appspot.com/o/parampara%20app%2Fparampara.apk?alt=media&token=ba29fe2a-a226-476f-b23b-5347bccedc68'
+                                        href='https://play.google.com/store/apps/details?id=in.itmparampara.parampara'
                                         className='boxed-btn3  wow fadeInUp'
                                         data-wow-duration='1s'
                                         data-wow-delay='.7s'
