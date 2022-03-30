@@ -22,13 +22,13 @@ function Footer() {
                                             The event regularly attracts a diverse range of talent from around the state.
                                         </p>
                                         <a
-                                            href='https://docs.google.com/forms/d/1yMgIqfgdG86AVeY-QHqdCMIYxoq6v-brsRWCbM2ffFg/viewform?edit_requested=true'
+                                            href='https://docs.google.com/forms/d/e/1FAIpQLSez8w1wu89eHblt1Kqo6Gc7R-8b96BqZNv_BPaLDuqZR327tA/viewform?vc=0&c=0&w=1&flr=0'
                                             target='_blank'
                                             className='boxed-btn3 wow fadeInUp'
                                             data-wow-duration='1s'
                                             data-wow-delay='.6s'
                                         >
-                                            Buy Tickets
+                                            Register
                                         </a>
                                     </div>
                                 </div>

@@ -21,11 +21,15 @@ const Card = (props) => {
                         <h3 className='card-title text-center'>{props.item.title}</h3>
                         <div>
                             <span>Event Timing : </span>
-                            <span className='card-text'>Yet to Decide</span>
+                            <span className='card-text'>{props.item.startTime}</span>
                         </div>
                         <div>
-                            <span>Venue : </span>
-                            <span className='card-text'>Yet to Decide</span>
+                            <span>Event Date : </span>
+                            <span className='card-text'>{props.item.date}</span>
+                        </div>
+                        <div>
+                            <span>Fee : </span>
+                            <span className='card-text'>{props.item.fee}</span>
                         </div>
                         <div>
                             <span>Co-ordinator : </span>

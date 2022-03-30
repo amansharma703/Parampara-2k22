@@ -258,11 +258,11 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.3+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 125%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 125%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 125%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
@@ -1026,7 +1026,7 @@ h3 {
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -70px;
+  top: -58px;
 }
 
 /* line 106, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
@@ -1613,7 +1613,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center ;
@@ -2440,13 +2440,13 @@ h3 {
 
 .map_area .main_map{
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 
 .map_area .main_map .map_frame{
   width: 100%;  
-  height: 60vh;
+  height: 70vh;
 }
 
 @media (max-width: 767px) {

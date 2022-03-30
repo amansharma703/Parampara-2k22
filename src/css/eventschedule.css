@@ -183,7 +183,7 @@
 }
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div span.name {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   transition: .2s ease-in;
 }
 

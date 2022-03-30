@@ -108,7 +108,11 @@ const ContactSecond = () => {
 
                                                     <div class='contact-content'>
                                                         <div class='entry-title'>E-mail</div>
-                                                        <div class='entry-content'>parampara@itmgkp.edu.in</div>
+                                                        <div class='entry-content'>
+                                                            parampara@
+                                                            <wbr />
+                                                            itmgkp.edu.in
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
