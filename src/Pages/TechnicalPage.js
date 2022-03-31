@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Helmet from 'react-helmet';
 import CardPage from '../components/CardPage';
-import HeroEvent from '../components/HeroEvent';
+import HeroPage from '../components/HeroPage';
 const TechnicalPage = () => {
     const [event, setEvent] = useState([]);
     const getData = async () => {
@@ -21,8 +21,9 @@ const TechnicalPage = () => {
                     content='Here are the list of all Technical events, Among on show skills in various competition given below '
                 />
             </Helmet>
-            <HeroEvent name={`Technical`} message='All Technical schedules are here!' feed='7,8,9 April Be Ready to Rock' />
-            {/* <ProgramTimeline /> */}
+
+            <HeroPage title='Technical Events' currentPage='Technical' imgName='technicalEvent.jpg' />
+
             <CardPage data={event} />
         </>
     );

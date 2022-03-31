@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import CardPage from '../components/CardPage';
-import HeroEvent from '../components/HeroEvent';
 import Helmet from 'react-helmet';
+import CardPage from '../components/CardPage';
+import HeroPage from '../components/HeroPage';
 
 const SportsPage = () => {
     const [event, setEvent] = useState([]);
@@ -19,7 +19,8 @@ const SportsPage = () => {
                 <title>Sports Events - Parampara 2k22</title>
                 <meta name='description' content='Here are the list of all Sports events, Among on show skills in various competition given below ' />
             </Helmet>
-            <HeroEvent name='Sports' message='All Sports schedules are here!' feed='7,8,9 April Be Ready to Rock' />
+            <HeroPage title='Sports Events' currentPage='Sports' imgName='sportsEvent.jpg' />
+
             <CardPage data={event} />
         </>
     );

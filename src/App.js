@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useEffect } from 'react';
 import Header from './components/Header';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import PerformerPage from './Pages/PerformerPage';
@@ -66,13 +66,12 @@ function App() {
                 <Header />
                 <Routes>
                     <Route exact path='/' element={<HomePage />} />
-                    <Route exact path='/performer' element={<PerformerPage />} />
                     <Route exact path='/contact' element={<ContactPage />} />
                     <Route exact path='/gallery' element={<GalleryPage />} />
                     <Route exact path='/techevent' element={<TechnicalPage />} />
                     <Route exact path='/culturalevent' element={<CulturalPage />} />
                     <Route exact path='/sportsevent' element={<SportsPage />} />
-                    <Route path='*' element={<Error404 />}></Route>
+                    <Route path='*' element={<Navigate to='/' />} />
                 </Routes>
                 <Footer />
             </Router>

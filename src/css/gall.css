@@ -5,9 +5,9 @@
   display: inline-block;
   margin: 0 10px;
 }
-.filter li a {
+.filter li  {
   color: #555;
-  font-size: 0.85em;
+  font-size: 1rem;
   padding: 10px 10px;
   letter-spacing: 3px;
   -webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
@@ -16,12 +16,13 @@
   -ms-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
 }
-.filter li a:hover {
-  border-bottom: 1px solid #00b2ca;
+.filter li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #FF4533;
 }
-.filter li.active a {
+/* .filter li.active a {
   border-bottom: 1px solid #00b2ca;
-}
+} */
 .work-item {
   text-align: center;
   margin: 15px 0;

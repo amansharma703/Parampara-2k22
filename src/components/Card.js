@@ -13,8 +13,9 @@ const Card = (props) => {
                             className='card-img-top embed-responsive-item'
                             src={props.item.imgUrl}
                             alt='Card image cap'
-                            effect='blur'
                             style={{ width: '100%', height: '30vh', 'object-fit': 'cover' }}
+                            placeholderSrc='img/loader.png'
+                            // ../img/banner/${props.imgName}
                         />
                     </div>
                     <div className='card-body' style={{ height: '50%' }}>

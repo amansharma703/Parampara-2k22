@@ -1,0 +1,56 @@
+.page-header {
+    min-height: 520px;
+    padding-top: 285px;
+    background-size: cover;
+}
+
+
+
+.page-header .entry-title {
+    font-family: "Muli", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+  .page-header .entry-title {
+    font-size: 35px;
+   
+}
+}
+
+.page-header .breadcrumbs {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    list-style: none;
+}
+
+.page-header .breadcrumbs li {
+    position: relative;
+    padding-right: 14px;
+}
+
+.page-header .breadcrumbs li::after {
+    content: '/';
+    position: absolute;
+    top: 3px;
+    right: 0;
+    height: 20px;
+    width: 14px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.page-header .breadcrumbs li:nth-last-of-type(1)::after {
+    display: none;
+}
+
+.page-header .breadcrumbs li a {
+    text-decoration: none;
+    color: #fff;
+}

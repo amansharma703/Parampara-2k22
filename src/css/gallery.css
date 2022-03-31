@@ -8,12 +8,21 @@
 
 }
 
+.pics:nth-child(4n+1){
+    clear: left;
+}
+
 .gallery .pics{
+    float: left;
+    margin: 5px;
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 1.5rem;
 }
+
+
+
 
 .gallery .pics:hover{
     filter: opacity(0.9);

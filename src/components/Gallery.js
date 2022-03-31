@@ -3,21 +3,37 @@ import '../css/gall.css';
 import React, { useEffect, useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import TechGallery from './galleryEvent/TechGallery';
+import CulturalGallery from './galleryEvent/CulturalGallery';
+import SportGallery from './galleryEvent/SportGallery';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const Gallery = () => {
-    const [galleryData, setGalleryData] = useState([]);
-    const getData = async () => {
-        const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/gallery.json');
-        const data = await res.json();
-        setGalleryData(data);
-        console.log(data);
+    const [tech, setTech] = useState(false);
+    const [cultural, setCultural] = useState(false);
+    const [sports, setSports] = useState(false);
+
+    const changeGallery = (val) => {
+        if (val === 'all') {
+            setTech(false);
+            setCultural(false);
+            setSports(false);
+        } else if (val === 'tech') {
+            setTech(true);
+            setCultural(false);
+            setSports(false);
+        } else if (val === 'cultural') {
+            setCultural(true);
+            setTech(false);
+            setSports(false);
+        } else if (val == 'sports') {
+            setSports(true);
+            setTech(false);
+            setCultural(false);
+        }
     };
-    useEffect(() => {
-        getData();
-        Aos.init();
-    }, []);
+
     return (
         <>
             <div className='container pt-4'>
@@ -35,22 +51,28 @@ const Gallery = () => {
                         </div>
                     </div>
                 </div>
-                <div className='gallery px-5 work-item'>
-                    {galleryData.map((item, index) => {
-                        return (
-                            <div
-                                data-aos='fade-up'
-                                data-aos-offset='100'
-                                className='pics effect-hover figure'
-                                key={index}
-                                // onClick={() => {
-                                //     getImg(item.imgSrc);
-                                // }}
-                            >
-                                <LazyLoadImage src={item.img} effect='blur' style={{ width: '100%' }} />
-                            </div>
-                        );
-                    })}
+                <div className='pb-4'>
+                    <ul class='filter text-center mt-2 '>
+                        <li onClick={() => changeGallery('all')}>All Highlights</li>
+                        <li onClick={() => changeGallery('tech')}>Technical</li>
+                        <li onClick={() => changeGallery('cultural')}>Cultural</li>
+                        <li onClick={() => changeGallery('sports')}>Sports</li>
+                    </ul>
+                </div>
+                <div className='container  '>
+                    <div className='row'>
+                        {!tech && !cultural && !sports ? (
+                            <>
+                                <TechGallery />
+                                <CulturalGallery />
+                                <SportGallery />
+                            </>
+                        ) : undefined}
+
+                        {tech ? <TechGallery /> : undefined}
+                        {cultural ? <CulturalGallery /> : undefined}
+                        {sports ? <SportGallery /> : undefined}
+                    </div>
                 </div>
             </div>
         </>
