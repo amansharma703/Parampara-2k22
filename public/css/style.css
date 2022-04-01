@@ -1029,6 +1029,12 @@ h3 {
   top: -58px;
 }
 
+@media (max-width: 350px) {
+  .slicknav_btn {
+  top: -45px;
+}
+}
+
 /* line 106, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
   top: -20px;
@@ -1040,7 +1046,7 @@ h3 {
   right: 0;
   width: 100%;
   top: 0;
-  z-index: 99;
+  z-index: 200;
   position: absolute;
 }
 
@@ -1565,6 +1571,46 @@ h3 {
     position: relative;
     right: 10px;
   }
+}
+
+
+.parallax-hero {
+      width: 100%;
+    height: 100vh;
+    z-index: 100;
+
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .parallax-hero {
+    height: 60vh;
+}
+}
+.parallax-fixed {
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax-section-bg {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.mobile .parallax-section-bg {
+  height: 100% !important;
 }
 
 

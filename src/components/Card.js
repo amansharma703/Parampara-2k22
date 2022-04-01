@@ -4,9 +4,17 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import '../css/card.css';
 
 const Card = (props) => {
+    console.log(props);
     return (
         <>
-            <div data-aos={props.aos} data-aos-offset={props.aos_offset} className='col-11 col-md-6 col-lg-3 mx-0 mb-4'>
+            <div
+                data-aos={props.aos}
+                data-aos-offset={props.aos_offset}
+                className='col-11 col-md-6 col-lg-3 mx-0 mb-4'
+                onClick={() => {
+                    console.log(props.item);
+                }}
+            >
                 <div className='card rounded p-0 overflow-hidden shadow card-hover '>
                     <div className='embed-responsive embed-responsive-16by9 '>
                         <LazyLoadImage

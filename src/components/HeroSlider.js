@@ -5,6 +5,14 @@ import '../css/button.css';
 const HeroSlider = (props) => {
     return (
         <>
+            <div
+                id='particle-ground'
+                data-background='../img/banner/cover.jpg'
+                data-top='transform: translate3d(0px, 0px, 0px)'
+                data-top-bottom='transform: translate3d(0px, -200px, 0px)'
+                data-anchor-target='#hero'
+                class='parallax-hero'
+            ></div>
             <div className='slider_area'>
                 <div className='single_slider  d-flex align-items-center slider_bg_1 overlay'>
                     <div className='container'>

@@ -1,7 +1,5 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-// import ParticlesEffect from './components/utils/ParticlesEffect';
-import ParticlesEffect from './utils/ParticlesEffect';
 
 const Performer = () => {
     const performerImg = [
