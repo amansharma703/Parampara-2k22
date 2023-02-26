@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 // import '../css/main.css';
-import '../css/button.css';
+import "../css/button.css";
 
 const HeroSlider = (props) => {
     return (

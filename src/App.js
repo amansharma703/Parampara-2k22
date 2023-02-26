@@ -1,18 +1,17 @@
-import React, { useLayoutEffect, useEffect } from 'react';
-import Header from './components/Header';
-import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from 'react-router-dom';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import HomePage from './Pages/HomePage';
-import ContactPage from './Pages/ContactPage';
-import Footer from './components/Footer';
-import GalleryPage from './Pages/GalleryPage';
-import ScrollToTop from './components/ScrollToTop';
-import TechnicalPage from './Pages/TechnicalPage';
-import CulturalPage from './Pages/CulturalPage';
-import SportsPage from './Pages/SportsPage';
-import { Helmet } from 'react-helmet';
-import EventDescription from './Pages/EventDescription';
+import React, { useLayoutEffect, useEffect } from "react";
+import Header from "./components/Header";
+import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import HomePage from "./Pages/HomePage";
+import ContactPage from "./Pages/ContactPage";
+import Footer from "./components/Footer";
+import GalleryPage from "./Pages/GalleryPage";
+import ScrollToTop from "./components/ScrollToTop";
+import TechnicalPage from "./Pages/TechnicalPage";
+import CulturalPage from "./Pages/CulturalPage";
+import SportsPage from "./Pages/SportsPage";
+import { Helmet } from "react-helmet";
 
 function App() {
     return (

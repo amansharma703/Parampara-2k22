@@ -1,9 +1,7 @@
-import React from 'react';
-import Contact from '../components/Contact';
-import Gallery from '../components/Gallery';
-import HeroEvent from '../components/HeroEvent';
-import Helmet from 'react-helmet';
-import ContactSecond from '../components/ContactSecond';
+import React from "react";
+import HeroEvent from "../components/HeroEvent";
+import Helmet from "react-helmet";
+import ContactSecond from "../components/ContactSecond";
 
 const ContactPage = () => {
     return (
