@@ -1,6 +1,6 @@
-import React from 'react';
-import FaceBook from './SocialPlugins/FaceBook';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import FaceBook from "./SocialPlugins/FaceBook";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
@@ -13,7 +13,7 @@ function Footer() {
                                 <div className='footer_widget'>
                                     <div className='address_details text-center'>
                                         <h4 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.3s'>
-                                            7th, 8th & 9th Apr, 2k22
+                                            6th, 7th & 8th Apr, 2023
                                         </h4>
                                         <h3 className='wow fadeInUp' data-wow-duration='1s' data-wow-delay='.4s'>
                                             Itm Gida, Gorakhpur
@@ -22,7 +22,7 @@ function Footer() {
                                             The event regularly attracts a diverse range of talent from around the state.
                                         </p>
                                         <a
-                                            href='https://docs.google.com/forms/d/e/1FAIpQLSez8w1wu89eHblt1Kqo6Gc7R-8b96BqZNv_BPaLDuqZR327tA/viewform?vc=0&c=0&w=1&flr=0'
+                                            href=''
                                             target='_blank'
                                             className='boxed-btn3 wow fadeInUp'
                                             data-wow-duration='1s'
@@ -122,17 +122,16 @@ function Footer() {
                                     <div className='border-top pt-5'>
                                         <div className='second-footer'>
                                             <p className='list-unstyled wow fadeInUp'>
-                                                Copyright © <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | {}
-                                                {/* <a href='/#'>parampara.in</a> | */}
+                                                Copyright © <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | { }
                                                 <a href='https://www.itmgkp.edu.in/'> itmgkp.edu.in </a>
                                             </p>
                                             <p className='list-unstyled wow fadeInUp'>
-                                                Developed with ❤️ by
-                                                <a href='https://amansharma703.vercel.app/' target='_black'>
-                                                    {' '}
-                                                    Aman Sharma{' '}
-                                                </a>{' '}
-                                                &{' '}
+                                                Developed with <div className='icon'>❤️</div> by
+                                                <a href='https://www.linkedin.com/in/amansharma703/' target='_black'>
+                                                    {" "}
+                                                    Aman Sharma{" "}
+                                                </a>{" "}
+                                                &{" "}
                                                 <a href='https://www.linkedin.com/in/rahul-ranjan-singh/' target='_black'>
                                                     Rahul Ranjan Singh
                                                 </a>
