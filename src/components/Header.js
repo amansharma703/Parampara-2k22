@@ -24,14 +24,12 @@ const Header = () => {
                                                     <li>
                                                         <NavLink to='/'> Home</NavLink>
                                                     </li>
-                                                    {/* <li>
-                                                        <NavLink to='/performer'> Performer</NavLink>
-                                                    </li> */}
+
 
                                                     <li>
-                                                        <a href='#'>
+                                                        <span id="evname">
                                                             Events <i className='ti-angle-down'></i>
-                                                        </a>
+                                                        </span>
                                                         <ul className='submenu'>
                                                             <li>
                                                                 <NavLink to='/techevent'> Technical</NavLink>

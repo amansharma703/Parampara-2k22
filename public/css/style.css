@@ -1303,7 +1303,9 @@ h3 {
 }
 
 /* line 139, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a {
+.header-area .main-header-area .main-menu ul li a,
+#evname {
+  cursor: pointer;
   font-family: "Muli", sans-serif !important;
   /* letter-spacing: 2px; */
   color: #fff;
