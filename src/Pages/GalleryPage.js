@@ -9,7 +9,7 @@ const GalleryPage = () => {
     return (
         <>
             <Helmet>
-                <title>Gallery - Parampara 2k22</title>
+                <title>Gallery - Parampara 2k23</title>
             </Helmet>
             <HeroGallery name='Gallery' message='We Capture your all Precious Moment here' />
             <Gallery />

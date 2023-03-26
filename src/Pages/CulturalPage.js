@@ -16,7 +16,7 @@ const CulturalPage = () => {
     return (
         <>
             <Helmet>
-                <title>Cultural Events - Parampara 2k22</title>
+                <title>Cultural Events - Parampara 2k23</title>
                 <meta
                     name='description'
                     content='Here are the list of all Cultural events, Among on show skills in various competition given below '

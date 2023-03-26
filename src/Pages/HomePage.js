@@ -12,7 +12,7 @@ import VideoGallery from "../components/VideoGallery";
 const HomePage = () => {
     return (
         <>
-            <HeroSlider name='Parampara 2k22' message='We are back with a Bang!' />
+            <HeroSlider name='Parampara 2k23' message='We are back with a Bang!' />
             <Performer />
             <ProgramDetails />
             <Eventschedule />

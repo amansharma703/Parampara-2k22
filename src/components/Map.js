@@ -18,7 +18,7 @@ const Map = () => {
                 </div>
 
                 <div class='location_information black_bg wow fadeInUp' data-wow-duration='1s' data-wow-delay='.3s'>
-                    <h3>Parampara 2k22</h3>
+                    <h3>Parampara 2k23</h3>
                     <div class='info_wrap'>
                         <div class='single_info'>
                             <p>

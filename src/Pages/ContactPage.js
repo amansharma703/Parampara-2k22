@@ -7,7 +7,7 @@ const ContactPage = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us - Parampara 2k22</title>
+                <title>Contact Us - Parampara 2k23</title>
             </Helmet>
             <HeroEvent name='Contact' message='We are here for You' />
             <ContactSecond />

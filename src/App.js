@@ -18,21 +18,21 @@ function App() {
         <>
             <Router>
                 <Helmet>
-                    <title>Parampara 2k22</title>
+                    <title>Parampara 2k23</title>
 
                     <meta
                         name='description'
                         content='Parampara is a Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'
                     />
                     <link rel='canonical' href='https://itmparampara.in/' />
-                    <meta name='keyword' content='Parampara 2k22, Itm Gida Gorakhpur, Techn0-cultural fest of ITM Gida Gorakhpur' />
+                    <meta name='keyword' content='Parampara 2k23, Itm Gida Gorakhpur, Techn0-cultural fest of ITM Gida Gorakhpur' />
                     <meta name='robots' content='index, follow' />
                     <meta name='googlebot' content='index, follow' />
 
                     {/* <!-- Facebook Meta Tags -- > */}
                     <meta property='og:url' content='https://itmparampara.in/' />
                     <meta property='og:type' content='website' />
-                    <meta property='og:title' content='Parampara 2k22' />
+                    <meta property='og:title' content='Parampara 2k23' />
                     <meta
                         property='og:description'
                         content='Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM'

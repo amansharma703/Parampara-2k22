@@ -16,7 +16,7 @@ const SportsPage = () => {
     return (
         <>
             <Helmet>
-                <title>Sports Events - Parampara 2k22</title>
+                <title>Sports Events - Parampara 2k23</title>
                 <meta name='description' content='Here are the list of all Sports events, Among on show skills in various competition given below ' />
             </Helmet>
             <HeroPage title='Sports Events' currentPage='Sports' imgName='sportsEvent.jpg' />

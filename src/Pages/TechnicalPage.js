@@ -15,7 +15,7 @@ const TechnicalPage = () => {
     return (
         <>
             <Helmet>
-                <title>Technical Events - Parampara 2k22</title>
+                <title>Technical Events - Parampara 2k23</title>
                 <meta
                     name='description'
                     content='Here are the list of all Technical events, Among on show skills in various competition given below '
