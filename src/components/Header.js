@@ -64,6 +64,7 @@ const Header = () => {
                                                 <a
                                                     href='https://docs.google.com/forms/d/e/1FAIpQLSez8w1wu89eHblt1Kqo6Gc7R-8b96BqZNv_BPaLDuqZR327tA/viewform?vc=0&c=0&w=1&flr=0'
                                                     target='_blank'
+                                                    rel='noreferrer'
                                                 >
                                                     Register
                                                 </a>

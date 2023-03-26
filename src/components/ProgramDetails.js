@@ -46,6 +46,7 @@ const ProgramDetails = () => {
                                     className='boxed-btn3  wow fadeInLeft'
                                     data-wow-duration='1s'
                                     data-wow-delay='.7s'
+                                    rel="noreferrer"
                                 >
                                     Register
                                 </a>

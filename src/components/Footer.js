@@ -40,6 +40,7 @@ function Footer() {
                                             className="boxed-btn3 wow fadeInUp"
                                             data-wow-duration="1s"
                                             data-wow-delay=".6s"
+                                            rel="noopener"
                                         >
                                             Register
                                         </a>
