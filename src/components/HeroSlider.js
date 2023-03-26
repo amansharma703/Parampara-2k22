@@ -1,5 +1,4 @@
 import React from "react";
-// import '../css/main.css';
 import "../css/button.css";
 
 const HeroSlider = (props) => {
@@ -38,7 +37,7 @@ const HeroSlider = (props) => {
                     </div>
                 </div>
             </div>
-            <a href='#performer' data-start='display: block' data-100-start='display: none' className='wow fadeInUp btn-scroll-down scroll'></a>
+            <div data-start='display: block' data-100-start='display: none' className='wow fadeInUp btn-scroll-down scroll' > </div>
         </>
     );
 };

@@ -15,7 +15,7 @@
 }
 .btn-scroll-down:before,
 .btn-scroll-down:after {
-  content: '';
+  content: "";
   display: block;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
@@ -43,6 +43,10 @@
   -o-animation: sc-down-a 0.3s infinite alternate;
   -ms-animation: sc-down-a 0.3s infinite alternate;
   animation: sc-down-a 0.3s infinite alternate;
+}
+
+.btn-scroll-down:hover {
+  cursor: pointer;
 }
 
 @-moz-keyframes sc-down-a {
@@ -113,7 +117,7 @@
 @media (max-width: 767px) {
   /* line 330, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
   .btn-scroll-down:before,
-.btn-scroll-down:after {
+  .btn-scroll-down:after {
     display: none;
-}
+  }
 }

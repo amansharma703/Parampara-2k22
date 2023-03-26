@@ -1,7 +1,6 @@
-import React, { useLayoutEffect, useEffect } from "react";
+import React from "react";
 import Header from "./components/Header";
-import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from "react-router-dom";
-import Aos from "aos";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import "aos/dist/aos.css";
 import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";

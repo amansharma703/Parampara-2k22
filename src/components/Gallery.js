@@ -1,12 +1,9 @@
 import '../css/gallery.css';
 import '../css/gall.css';
-import React, { useEffect, useState } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import React, { useState } from 'react';
 import TechGallery from './galleryEvent/TechGallery';
 import CulturalGallery from './galleryEvent/CulturalGallery';
 import SportGallery from './galleryEvent/SportGallery';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const Gallery = () => {
@@ -27,7 +24,7 @@ const Gallery = () => {
             setCultural(true);
             setTech(false);
             setSports(false);
-        } else if (val == 'sports') {
+        } else if (val === 'sports') {
             setSports(true);
             setTech(false);
             setCultural(false);
