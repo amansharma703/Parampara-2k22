@@ -10,19 +10,19 @@ import Map from "../components/Map";
 import VideoGallery from "../components/VideoGallery";
 
 const HomePage = () => {
-    return (
-        <>
-            <HeroSlider name='Parampara 2k23' message='We are back with a Bang!' />
-            <Performer />
-            <ProgramDetails />
-            <Eventschedule />
-            <VideoGallery />
-            <Gall />
-            <Map />
-            <MobilePromo />
-            <ProgramTimeline />
-        </>
-    );
+  return (
+    <>
+      <HeroSlider name="Parampara 2k23" message="We are back with a Bang!" />
+      <Performer />
+      <ProgramDetails />
+      <Eventschedule />
+      <VideoGallery />
+      <Gall />
+      <Map />
+      <MobilePromo />
+      <ProgramTimeline />
+    </>
+  );
 };
 
 export default HomePage;
