@@ -160,11 +160,7 @@ function Footer() {
                   <div className="border-top pt-5">
                     <div className="second-footer">
                       <p className="list-unstyled wow fadeInUp">
-                        Copyright ©{" "}
-                        <script>
-                          document.write(new Date().getFullYear());
-                        </script>
-                        2022 All rights reserved | {}
+                        Copyright © 2022 All rights reserved | {}
                         <a href="https://www.itmgkp.edu.in/"> itmgkp.edu.in </a>
                       </p>
                       <p className="list-unstyled wow fadeInUp">
