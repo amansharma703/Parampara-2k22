@@ -11,7 +11,9 @@ const CulturalGallery = () => {
     const getData = async () => {
         const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/culturalgallery.json');
         const data = await res.json();
-        setGalleryData(data);
+        if (!data.error) {
+            setGalleryData(data);
+        }
     };
     useEffect(() => {
         getData();
@@ -19,7 +21,7 @@ const CulturalGallery = () => {
     }, []);
     return (
         <>
-            {galleryData.map((item, index) => {
+            {galleryData?.map((item, index) => {
                 return (
                     <div
                         data-aos='fade-up'

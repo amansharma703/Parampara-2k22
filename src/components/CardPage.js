@@ -12,7 +12,7 @@ const CardPage = (props) => {
             <section className='py-4 py-lg-5  event_bg'>
                 <div className='container'>
                     <div className='row center_content'>
-                        {props.data.map((item, index) => (
+                        {props?.data?.map((item, index) => (
                             <Card aos='fade-up' key={index} aos_offset='100' item={item} />
                         ))}
                     </div>

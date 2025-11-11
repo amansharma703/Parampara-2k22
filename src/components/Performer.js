@@ -37,7 +37,7 @@ const Performer = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="row">
-                {performerImg.map((item, index) => {
+                {performerImg?.map((item, index) => {
                   return (
                     <Tilt
                       key={index}

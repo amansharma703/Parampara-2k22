@@ -8,7 +8,7 @@ const SportsPage = () => {
     const getData = async () => {
         const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/event.json');
         const data = await res.json();
-        setEvent(data.sport.eventlist);
+        setEvent(data?.sport?.eventlist);
     };
     useEffect(() => {
         getData();

@@ -8,9 +8,9 @@ const Eventschedule = () => {
     const getData = async () => {
         const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/event.json');
         const data = await res.json();
-        setTechEvent(data.technical.eventlist);
-        setSportEvent(data.sport.eventlist);
-        setCulEvent(data.cultural.eventlist);
+        setTechEvent(data?.technical?.eventlist);
+        setSportEvent(data?.sport?.eventlist);
+        setCulEvent(data?.cultural?.eventlist);
     };
     useEffect(() => {
         getData();
@@ -61,7 +61,7 @@ const Eventschedule = () => {
                                                 <div className='venue'>Contact</div>
                                             </li>
                                             {/* <!-- Schedule Details --> */}
-                                            {techEvent.map((item, index) => {
+                                            {techEvent?.map((item, index) => {
                                                 return (
                                                     <li key={index} className='schedule-details'>
                                                         <div className='block'>
@@ -90,7 +90,7 @@ const Eventschedule = () => {
                                                 <div className='venue'>Contact</div>
                                             </li>
                                             {/* <!-- Schedule Details --> */}
-                                            {culEvent.map((item, index) => {
+                                            {culEvent?.map((item, index) => {
                                                 return (
                                                     <li key={index} className='schedule-details'>
                                                         <div className='block'>
@@ -119,7 +119,7 @@ const Eventschedule = () => {
                                                 <div className='venue'>Contact</div>
                                             </li>
 
-                                            {sportEvent.map((item, index) => {
+                                            {sportEvent?.map((item, index) => {
                                                 return (
                                                     <li key={index} className='schedule-details'>
                                                         <div className='block'>

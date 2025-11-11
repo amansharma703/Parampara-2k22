@@ -10,8 +10,12 @@ const Gall = () => {
     const getData = async () => {
         const res = await fetch('https://parampara-48b01-default-rtdb.firebaseio.com/highlighted.json');
         const data = await res.json();
-        setGalleryData(data);
+        if (!data.error) {
+            setGalleryData(data);
+        }
     };
+
+    console.log(galleryData);
     useEffect(() => {
         getData();
         Aos.init();
@@ -38,7 +42,7 @@ const Gall = () => {
                 <div className='container'>
                     <div data-wow-delay='0.1s' data-wow-duration='1s' className='work-container mt-40 mt-xs-20 wow fadeIn'>
                         <div className='row px-4'>
-                            {galleryData.map((item, index) => {
+                            {galleryData?.map((item, index) => {
                                 return (
                                     <div
                                         key={index}

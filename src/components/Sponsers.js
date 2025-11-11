@@ -41,7 +41,7 @@ function Sponsers() {
                         <div className='col-lg-12'>
                             <div className='brand_wrap'>
                                 <div className='brand_active owl-carousel'>
-                                    {commMem.map((item, index) => {
+                                    {commMem?.map((item, index) => {
                                         return (
                                             <div key={index} className='single_brand text-center px-2 '>
                                                 <img src={item.img} style={{ 'border-radius': '15px' }} alt='' />
