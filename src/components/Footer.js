@@ -160,7 +160,7 @@ function Footer() {
                   <div className="border-top pt-5">
                     <div className="second-footer">
                       <p className="list-unstyled wow fadeInUp">
-                        Copyright © 2022 All rights reserved | {}
+                        Copyright © 2022 All rights reserved | { }
                         <a href="https://www.itmgkp.edu.in/"> itmgkp.edu.in </a>
                       </p>
                       <p className="list-unstyled wow fadeInUp">
@@ -175,11 +175,11 @@ function Footer() {
                         </a>{" "}
                         &{" "}
                         <a
-                          href="https://www.linkedin.com/in/rahul-ranjan-singh/"
+                          href="https://www.linkedin.com/in/ajaysahani942/"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Rahul Ranjan Singh
+                          Ajay Sahani
                         </a>
                       </p>
                     </div>
